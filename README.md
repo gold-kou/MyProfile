@@ -1,5 +1,5 @@
 # 職務経歴書
-## 職務経歴概要
+## 概要
 - 約●年間のシステム開発の業務経験があります
 - 約●年間のインフラ関連の業務経験があります
 
@@ -72,8 +72,9 @@
   - 流暢ではないがコミュニケーションはできる
   - TOEIC: 790点
 
-## 強み
-### 強みその1 
+## 長所
+### 長所その1 
+### 長所その2
 
 
 ## 資格
@@ -96,7 +97,7 @@ https://www.researchgate.net/publication/268444818_Text_Classification_Using_Com
 * [Twitter](https://twitter.com/gold_kou)
 * [LinkedIn](https://www.linkedin.com/in/koki-hatano-258a42166/)
 
-## 職務経歴詳細
+## 職務経歴
 ### 2019/2 - 現在 : ZOZOテクノロジーズ
 #### プロジェクト概要
 #### 業務内容
@@ -104,16 +105,20 @@ https://www.researchgate.net/publication/268444818_Text_Classification_Using_Com
 
 
 ### 2018/10 - 2018/12(3ヶ月): NTTコムウェア
-#### プロジェクト概要
-パブリッククラウドサービスEnterprise Cloud2.0のベアメタルサービス開発に従事しておりました。
+#### パブリッククラウドサービス開発【】
+[プロジェクト概要]
+企業向けパブリッククラウドサービスEnterprise Cloud2.0におけるベアメタルサービス関連の追加開発および運用。
 10名程度の規模のチームで、開発者として機能開発を行っておりました。
 
-#### 業務内容
-- SSD寿命を監視する機能開発とUTの実装
-- Ansibleのplaybook改修
-- 公開ドキュメント修正
+[担当業務]
+- Ansibleのplaybookの修正
+- SSD寿命情報の定期取得とアラーム発砲機能の開発およびUT実装
+- API公開ドキュメントの修正
+- 運用業務
 
-#### 技術スタック
+[発揮したバリュー]
+
+[技術スタック]
 - Ruby
 - Sinatra
 - Ansible
@@ -125,3 +130,8 @@ https://www.researchgate.net/publication/268444818_Text_Classification_Using_Com
 #### プロジェクト概要
 #### 業務内容
 #### 技術スタック
+
+
+
+### 4次元可視化システムの開発および提案
+[プロジェクト概要]
