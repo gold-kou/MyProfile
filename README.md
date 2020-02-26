@@ -2,8 +2,8 @@
 
 # 職務経歴書
 ## 概要
-- 約●年間のシステム開発の業務経験があります
-- 約●年間のサーバ仮想化および自動化関連の業務経験があります
+- 約3年間のシステム開発の業務経験があります
+- 約2年間のサーバ仮想化および自動化関連の業務経験があります
 
 ## テクニカルスキル
 ### プログラミング言語
@@ -72,12 +72,13 @@ https://www.researchgate.net/publication/268444818_Text_Classification_Using_Com
 * [LinkedIn](https://www.linkedin.com/in/koki-hatano-258a42166/)
 
 ## 職務経歴
-### 2019/2 - 現在 : ZOZOテクノロジーズ
-#### プロジェクト概要
-#### 業務内容
-#### 技術スタック
-digdag/datadog
+### 服の生産および発注管理システムの開発(2019-現在)
+[プロジェクト概要]
 
+[技術スタック]
+Go/OpenAPI/gRPC/PostgreSQL/Docker/Nginx/AWS(ECS/Fargate/EC2/OpsWorks/Lambda/RDS/DynamoDB/S3など)/Digdag/Datadog/CircleCI/GitHub/JIRA/Confluence/Slack
+
+[担当業務]
 
 ### パブリッククラウドサービスの開発(2018、約3ヶ月)
 [プロジェクト概要]
@@ -109,7 +110,7 @@ OpenStack/KVM/Ansible/SR-IOV/CPUピニング/HugePage/NUMA
 ・2度の落雷トラブル発生時の復旧作業と問題切り分けを指揮し、他社のアプリベンダや物理インフラ担当ベンダなどとコミュニケーションをとりながら、短期間（1-3営業日)で復旧。
 ・自身の英語力を活かしてアプリベンダの海外エンジニアと直接コミュニケーションを取ることで効率的に作業を進めた。
 
-### 無人受付システムの開発(2017年、約3ヶ月)
+### 中国での無人受付システムの開発(2017年、約3ヶ月)
 [プロジェクト概要]
 受付業務をネイティブアプリとビーコンにより無人化するWebサービスの開発。
 
@@ -117,17 +118,17 @@ OpenStack/KVM/Ansible/SR-IOV/CPUピニング/HugePage/NUMA
 Python/Flask/HTML/CSS/JavaScript/Nginx/AWS/Jenkins/GitLab/Scrum/JIRA/Confluence/mattermost
 
 [担当業務]
-・中国に駐在し中国人と日本人の混在チームでスクラム開発
-・主にWebサービスのバックエンド開発とAWS関連を担当
-・設計(システム間連携/API/DB/画面遷移/クラス)
-・実装(UT含む)
-・試験実施
-・ネットワークトラブル対応
-・特にプロジェクト開始前とSprint0においてリーダーシップを発揮。具体的には、開発メンバを代表して、プロダクトオーナーや既存SDK開発メンバとのコミュニケーションやアーキテクチャの決定、他開発メンバへの情報共有を実施。
-・PythonのテクニカルリーダとしてPythonやFlaskの基本説明、ディレクトリやファイルのひな型作成、リファクタリング担当、開発メンバ全員の開発環境構築などを実施。
-・ネットワークのテクニカルリーダとして通信関連の問題(メールやLINEメッセージ送信の失敗、push通知リクエストの失敗など)の原因解析を実施。
-・Git操作に不慣れな開発メンバにGitの指導を実施。
-・帰国後に50人程度規模の社内向けスクラム開発イベントで登壇。
+- 中国に駐在し中国人と日本人の混在チームでスクラム開発
+- 主にWebサービスのバックエンド開発とAWS関連を担当
+- 設計(システム間連携/API/DB/画面遷移/クラス)
+- 実装(UT含む)
+- 試験実施
+- ネットワークトラブル対応
+- 特にプロジェクト開始前とSprint0においてリーダーシップを発揮。具体的には、開発メンバを代表して、プロダクトオーナーや既存SDK開発メンバとのコミュニケーションやアーキテクチャの決定、他開発メンバへの情報共有を実施。
+- PythonのテクニカルリーダとしてPythonやFlaskの基本説明、ディレクトリやファイルのひな型作成、リファクタリング担当、開発メンバ全員の開発環境構築などを実施。
+- ネットワークのテクニカルリーダとして通信関連の問題(メールやLINEメッセージ送信の失敗、push通知リクエストの失敗など)の原因解析を実施。
+- Git操作に不慣れな開発メンバにGitの指導を実施。
+- 帰国後に50人程度規模の社内向けスクラム開発イベントで登壇。
 
 ### サーバ仮想化および自動化に関する事前技術調査と提案(2017年、約3ヶ月)
 [プロジェクト概要]
@@ -137,11 +138,11 @@ Python/Flask/HTML/CSS/JavaScript/Nginx/AWS/Jenkins/GitLab/Scrum/JIRA/Confluence/
 KVM/KickStart/Ansible/Zabbix
 
 [担当業務]
-・契約前の技術調査と提案と見積もり
-・KickStartに関する調査および動作検証
-・AnsibleによるゲストOSインストールと必要パッケージインストール作業の自動化に関する調査および動作検証と工数見積もり
-・ZabbixによるホストOS側のIPMIやプロセスなどの監視に関する調査および動作検証
-・調査内容の引き継ぎ
+- 契約前の技術調査と提案と見積もり
+- KickStartに関する調査および動作検証
+- AnsibleによるゲストOSインストールと必要パッケージインストール作業の自動化に関する調査および動作検証と工数見積もり
+- ZabbixによるホストOS側のIPMIやプロセスなどの監視に関する調査および動作検証
+- 調査内容の引き継ぎ
 
 ### サーバ仮想化関連のOSS調査(2017年、約6ヶ月)
 [プロジェクト概要]
@@ -151,27 +152,27 @@ KVM/KickStart/Ansible/Zabbix
 Docker/kola-ansible/NFV/OpenStack/Vagrant/Virtualbox/Java/Fluentd/Norikra/GitBucket/Jenkins/JIRA/Confluence/mattermost
 
 [担当業務]
-・Dockerインストール、基本コマンド、Dockerfile、docker-composeなどの調査および動作検証を実施し、社内勉強会開催。
-・kolla-ansible(OpenStackの各コンポーネントをコンテナとして扱うことでOpenStackのバージョン更新作業を簡易化するコンポーネント)の調査および動作検証し、社内勉強会開催。
-・3種類のOSSのMANO(OpenBaton/ Tacker/Open Source MANO)の各公式ドキュメント（英語）からドキュメント充実度、機能充実度、コミュニティ活発度などを調査比較し、OpenBatonを調査対象として決定。
-・検証用物理サーバ2台のOSインストールとネットワーク設定
-・VagrantとVirtualboxによるOpenStackのcontrollerとcomputeノード用の仮想インスタンス生成の自動化。
-・OpenStack環境構築を自動化するAnsibleのplaybook実装。
-・OpenBatonのInstantiation/Termination機能を動作検証。
-・社内セキュリティ環境やバグに対応したOpenBatonの改良を実装。
-・OpenBatonのログ処理のバグに関するpull requestがマージされた。（OSSコミュニティへの貢献）
-・OpenBatonのインストールドキュメント不備に関するIssue作成。(OSSコミュニティへの貢献)
+- Dockerインストール、基本コマンド、Dockerfile、docker-composeなどの調査および動作検証を実施し、社内勉強会開催。
+- kolla-ansible(OpenStackの各コンポーネントをコンテナとして扱うことでOpenStackのバージョン更新作業を簡易化するコンポーネント)の調査および動作検証し、社内勉強会開催。
+- 3種類のOSSのMANO(OpenBaton/ Tacker/Open Source MANO)の各公式ドキュメント（英語）からドキュメント充実度、機能充実度、コミュニティ活発度などを調査比較し、OpenBatonを調査対象として決定。
+- 検証用物理サーバ2台のOSインストールとネットワーク設定
+- VagrantとVirtualboxによるOpenStackのcontrollerとcomputeノード用の仮想インスタンス生成の自動化。
+- OpenStack環境構築を自動化するAnsibleのplaybook実装。
+- OpenBatonのInstantiation/Termination機能を動作検証。
+- 社内セキュリティ環境やバグに対応したOpenBatonの改良を実装。
+- OpenBatonのログ処理のバグに関するpull requestがマージされた。（OSSコミュニティへの貢献）
+- OpenBatonのインストールドキュメント不備に関するIssue作成。(OSSコミュニティへの貢献)
 
 ### エンタープライズ企業向け営業活動(2016年、約3ヶ月)
 [プロジェクト概要]
 エンタープライズ企業向け営業OJT
 
 [担当業務]
-・電力業界の企業様向けSaaS型勤怠管理システムの提案
-・電力業界の企業様向け基盤システムの運用保守契約更新
-・官公庁向けThinクライアント端末移行プロジェクトにおける大規模トラブルにおけるエンドユーザ対応
-・重要顧客への年末挨拶および準備
-・その他事務処理
+- 電力業界の企業様向けSaaS型勤怠管理システムの提案
+- 電力業界の企業様向け基盤システムの運用保守契約更新
+- 官公庁向けThinクライアント端末移行プロジェクトにおける大規模トラブルにおけるエンドユーザ対応
+- 重要顧客への年末挨拶および準備
+- その他事務処理
 
 ### NFV検証用システムの開発(2016年、約6ヶ月)
 [プロジェクト概要]
@@ -181,13 +182,13 @@ NFV検証に関する「試験用ワンコールシステムのIFアダプタの
 Python/Flask/Java/HTML/CSS/JavaScript/MySQL/Nginx/Jenkins/NFV/GitBucket/limechat/JIRA/Confluence
 
 [担当業務]
-・ローカル開発環境構築(Python、Javaなど)
-・IT環境構築
-・CI環境構築
-・外部システム（テストコールシステム、MANO）に関する社外への仕様問い合わせ
-・設計(シーケンス図/REST-API/RDB/画面/メッセージ仕様)
-・実装(UT含む)
-・試験実施
+- ローカル開発環境構築(Python、Javaなど)
+- IT環境構築
+- CI環境構築
+- 外部システム（テストコールシステム、MANO）に関する社外への仕様問い合わせ
+- 設計(シーケンス図/REST-API/RDB/画面/メッセージ仕様)
+- 実装(UT含む)
+- 試験実施
 
 ### NFV検証環境の構築(2016年、約3ヶ月)
 [プロジェクト概要]
