@@ -142,7 +142,7 @@ Python/Flask/Java/HTML/CSS/JavaScript/MySQL/Nginx/Jenkins/NFV/GitBucket/limechat
 
 [担当業務]
 
-### NFV検証用の環境構築(2016年、約3ヶ月)
+### NFV検証環境の構築(2016年、約3ヶ月)
 [プロジェクト概要]
 国内大手通信企業様の電話サービスに関するNFVシナリオ（オートヒーリング、スケールアウト、システムアップデート）検証用の環境構築および検証を実施し、提案する。
 
