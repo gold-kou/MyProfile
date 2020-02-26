@@ -39,38 +39,6 @@ JIRA/Confluence/Markdown
 ### 開発手法
 Scrum/ウォーターフォール
 
-## 言語
-- 日本語
-  - ネイティブ
-- 英語
-  - 流暢ではないがコミュニケーションはできる
-  - TOEIC: 790点
-
-## 長所
-### 長所その1 
-### 長所その2
-
-
-## 資格
-* 応用情報技術者
-* 認定スクラムマスター
-* TOEIC790
-
-## ポートフォリオ
-趣味程度ですが自作のアプリケーションを作成しました。
-
-* 
-
-## 大学時代の研究
-大学では自然言語処理とAIに関する研究をしておりました。「人間の大脳皮質の情報処理原理を用いたテキストのカテゴリー分類」というテーマで国際学会に登壇して発表した経験があります。以下は論文のリンクになります。
-
-https://www.researchgate.net/publication/268444818_Text_Classification_Using_Computational_Model_of_the_Cerebral_Cortex
-
-## リンク
-* [Qiita](https://qiita.com/gold-kou)
-* [Twitter](https://twitter.com/gold_kou)
-* [LinkedIn](https://www.linkedin.com/in/koki-hatano-258a42166/)
-
 ## 職務経歴
 ### 服の生産および発注管理システムの開発(2019-現在)
 [プロジェクト概要]
@@ -217,3 +185,31 @@ JavaScript/Three.js/HTML/CSS
 [担当業務]
 ・大手海外通信企業様向けにネットワークの帯域使用率を可視化する4次元可視化システムのプロトタイプ開発と提案を実施。
 ・水道管理システム企業様向けに河川の水位を可視化する4次元可視化システムのプロトタイプ開発と提案を実施。
+
+## 言語
+- 日本語
+  - ネイティブ
+- 英語
+  - 流暢ではないがコミュニケーションはできる
+  - TOEIC: 790点
+
+## 大学時代の研究
+大学では自然言語処理とAIに関する研究をしておりました。「人間の大脳皮質の情報処理原理を用いたテキストのカテゴリー分類」というテーマで国際学会に登壇して発表した経験があります。以下は論文のリンクになります。
+
+https://www.researchgate.net/publication/268444818_Text_Classification_Using_Computational_Model_of_the_Cerebral_Cortex
+
+## 長所
+### 長所その1 
+### 長所その2
+
+## 資格
+* 認定スクラムマスター
+* 応用情報技術者
+* TOEIC790
+
+## ポートフォリオ
+
+## 各種リンク
+* [Qiita](https://qiita.com/gold-kou)
+* [Twitter](https://twitter.com/gold_kou)
+* [LinkedIn](https://www.linkedin.com/in/koki-hatano-258a42166/)
