@@ -268,6 +268,6 @@ https://www.researchgate.net/publication/268444818_Text_Classification_Using_Com
 
 ## 各種リンク
 - [Qiita](https://qiita.com/gold-kou)
-- [stack overflow] https://stackoverflow.com/users/9048198/gold-kou
+- [stack overflow](https://stackoverflow.com/users/9048198/gold-kou)
 - [Twitter](https://twitter.com/gold_kou)
 - [LinkedIn](https://www.linkedin.com/in/koki-hatano-258a42166/)
