@@ -266,12 +266,12 @@ https://gigazine.net/news/20180808-johnnys-face/
 - TOEIC790
 
 ## ポートフォリオ
-### ジャニーズ顔判定ができるWebサービス
+### ジャニーズ顔判定ができるWebサービス[Python/Flask/HTML/CSS(BootStrap)/JavaScript/Nginx/AWS(EC2/Route53など)/GCP(GCS/GCV)/OpenCV/scikit-learn]
 ログインや登録など一切不要で、顔写真をアップロードするだけで、その顔がジャニーズ顔かどうかを判定できるWebサービスです。継続的にご利用いただいておりましたが、現在はインフラコストの都合上停止中です。ニュースサイトGigazineでも特集されました。
 
 [AIを使って自分の顔がジャニーズ系かどうかを判定するWebサービスを作ってみた](https://qiita.com/gold-kou/items/e1a96657a63b043c4564)
 
-### スマートスピーカーを使った通知サービス
+### スマートスピーカーを使った通知サービス[Python/Node.js/Google Home]
 帰宅時刻の天気が悪天候であれば毎朝自動で傘を忘れないように音声通知してくれるサービスです。
 
 [「え！？朝は雨降ってなかったのに！傘持ってきてないよ〜。」を解決するGoogleHome連携アプリを作ってみた](https://qiita.com/gold-kou/items/887c79a58ad496e417d6)
