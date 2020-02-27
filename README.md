@@ -40,17 +40,17 @@ JIRA/Confluence/Markdown
 Scrum/ウォーターフォール
 
 ## 職務経歴
-### 服の生産や発注管理などに関する業務システムの開発(2019、約1年間)
+### アパラル商品の生産・発注管理システムの開発(2019、約1年間)
 [プロジェクト概要]
-工場への服の生産発注や生産工程、出荷情報などを管理するシステムの開発
-服商品のマスタ情報を管理するシステムの開発
-社内システム間のマスタ情報データ連携を行うシステムの開発
+- 工場へのアパレル商品の生産発注や生産工程、出荷情報などを管理するシステムの開発
+- アパレル商品のマスタ情報を管理するシステムの開発
+- 社内システム間のデータ連携システムの開発
 
 [技術スタック]
 Go/Vue/TypeScript/OpenAPI/gRPC/PostgreSQL/Docker/Nginx/AWS(ECS/Fargate/EC2/OpsWorks/Lambda/RDS/DynamoDB/S3/CloudFormationなど)/Digdag/Datadog/CircleCI/GitHub/JIRA/Confluence/Slack
 
 [チーム規模、役割]
-10人弱程度のチームでテックリード兼バックエンドエンジニア兼スラクムマスターとして働いております。
+- 10人弱程度のチームでテックリード兼バックエンドエンジニア兼スラクムマスターとして働いております。
 
 [担当業務]
 - 技術、アーキテクチャ選定
@@ -68,13 +68,13 @@ Go/Vue/TypeScript/OpenAPI/gRPC/PostgreSQL/Docker/Nginx/AWS(ECS/Fargate/EC2/OpsWo
 
 ### パブリッククラウドサービスの開発(2018、約3ヶ月)
 [プロジェクト概要]
-企業向けパブリッククラウドサービスEnterprise Cloud2.0におけるベアメタルサービス関連の追加開発および運用。
+- 企業向けパブリッククラウドサービスEnterprise Cloud2.0におけるベアメタルサービス関連の追加開発および運用。
 
 [技術スタック]
-Ruby/Sinatra/Ansible/GitHub/Jenkins/Scrum
+- Ruby/Sinatra/Ansible/GitHub/Jenkins/Scrum
 
 [チーム規模、役割]
-10名程度のチームで、バックエンドエンジニアとして働いておりました。
+- 10名程度のチームで、バックエンドエンジニアとして働いておりました。
 
 [担当業務]
 - Ansibleのplaybookの修正
@@ -84,33 +84,33 @@ Ruby/Sinatra/Ansible/GitHub/Jenkins/Scrum
 
 ### 電話サービスのOpenStack導入に向けた検証(2018年、約9ヶ月)
 [プロジェクト概要]
-全国規模の大量トラフィックを前提としたIP電話サービスを、OpenStack上で運用するための商用想定検証環境のインフラ設計と構築。
+- 全国規模の大量トラフィックを前提としたIP電話サービスを、OpenStack上で運用するための商用想定検証環境のインフラ設計と構築。
 
 [技術スタック]
-OpenStack/KVM/Ansible/SR-IOV/CPUピニング/HugePage/NUMA
+- OpenStack/KVM/Ansible/SR-IOV/CPUピニング/HugePage/NUMA
 
 [チーム規模、役割]
-5名強程度のチームで、PM補佐兼インフラエンジニアとして働いておりました。
+- 5名強程度のチームで、PM補佐兼インフラエンジニアとして働いておりました。
 
 [担当業務]
-・複数のOpenStack環境構築と構築手順書の作成
-・SR-IOV、CPUピニング、HugePage、NUMAなどを用いたインフラの高速化チューニング設定
-・Ansibleを用いたOpenStack環境の正常性確認の自動化
-・仮想リソースの作成
-・協力会社と社内メンバへの作業指示および管理
-・2度の落雷トラブル発生時の復旧作業と問題切り分けを指揮し、他社のアプリベンダや物理インフラ担当ベンダなどとコミュニケーションをとりながら、短期間（1-3営業日)で復旧。
-・自身の英語力を活かしてアプリベンダの海外エンジニアと直接コミュニケーションを取ることで効率的に作業を進めた。
+- 複数のOpenStack環境構築と構築手順書の作成
+- SR-IOV、CPUピニング、HugePage、NUMAなどを用いたインフラの高速化チューニング設定
+- Ansibleを用いたOpenStack環境の正常性確認の自動化
+- 仮想リソースの作成
+- 協力会社と社内メンバへの作業指示および管理
+- 2度の落雷トラブル発生時の復旧作業と問題切り分けを指揮し、他社のアプリベンダや物理インフラ担当ベンダなどとコミュニケーションをとりながら、短期間（1-3営業日)で復旧。
+- 自身の英語力を活かしてアプリベンダの海外エンジニアと直接コミュニケーションを取ることで効率的に作業を進めた。
 
 ### 中国での無人受付システムの開発(2017年、約3ヶ月)
 [プロジェクト概要]
-受付業務をネイティブアプリとビーコンにより無人化するWebサービスの開発。
-中国でスクラム開発を学んでくる。
+- 受付業務をネイティブアプリとビーコンにより無人化するWebサービスの開発。
+- 中国でスクラム開発を経験する。
 
 [技術スタック]
-Python/Flask/HTML/CSS/JavaScript/Android/Nginx/AWS/Jenkins/GitLab/Scrum/JIRA/Confluence/mattermost
+- Python/Flask/HTML/CSS/JavaScript/Android/Nginx/AWS/Jenkins/GitLab/Scrum/JIRA/Confluence/mattermost
 
 [チーム規模、役割]
-10名弱程度(日本人、中国人混在)のチームで、テックリード兼バックエンジニアとして働いておりました。
+- 10名弱程度(日本人、中国人混在)のチームで、テックリード兼バックエンジニアとして働いておりました。
 
 [担当業務]
 - インフラ環境構築(AWS)
@@ -131,13 +131,13 @@ Python/Flask/HTML/CSS/JavaScript/Android/Nginx/AWS/Jenkins/GitLab/Scrum/JIRA/Con
 
 ### サーバ仮想化および自動化に関する事前技術調査と提案(2017年、約3ヶ月)
 [プロジェクト概要]
-国内大手通信企業様のカスタマーコントローラサーバ（エンドユーザが自身の申し込んだ通信サービスの設定を変更できるサーバ）のハイパーバイザ型仮想化と自動化の導入に向けた調査と提案。
+- 国内大手通信企業様のカスタマーコントローラサーバ（エンドユーザが自身の申し込んだ通信サービスの設定を変更できるサーバ）のハイパーバイザ型仮想化と自動化の導入に向けた調査と提案。
 
 [技術スタック]
-KVM/KickStart/Ansible/Zabbix
+- KVM/KickStart/Ansible/Zabbix
 
 [チーム規模、役割]
-2名のチームで、営業SEとして働いておりました。
+- 2名のチームで、営業SEとして働いておりました。
 
 [担当業務]
 - 契約前の技術調査と提案と見積もり
@@ -148,13 +148,13 @@ KVM/KickStart/Ansible/Zabbix
 
 ### サーバ仮想化関連のOSS調査(2017年、約6ヶ月)
 [プロジェクト概要]
-サーバ仮想化や自動化に関するOSSの調査および動作検証などを実施し、調査内容を社内共有する。
+- サーバ仮想化や自動化に関するOSSの調査および動作検証などを実施し、調査内容を社内共有する。
 
 [技術スタック]
-Docker/kola-ansible/NFV/OpenStack/Vagrant/Virtualbox/Java/Fluentd/Norikra/GitBucket/Jenkins/JIRA/Confluence/mattermost
+- Docker/kola-ansible/NFV/OpenStack/Vagrant/Virtualbox/Java/Fluentd/Norikra/GitBucket/Jenkins/JIRA/Confluence/mattermost
 
 [チーム規模、役割]
-1名で、OSS調査員として働いておりました。
+- 1名で、OSS調査員として働いておりました。
 
 [担当業務]
 - Dockerインストール、基本コマンド、Dockerfile、docker-composeなどの調査および動作検証を実施し、社内勉強会開催。
@@ -170,10 +170,10 @@ Docker/kola-ansible/NFV/OpenStack/Vagrant/Virtualbox/Java/Fluentd/Norikra/GitBuc
 
 ### エンタープライズ企業向け営業活動(2016年、約3ヶ月)
 [プロジェクト概要]
-エンタープライズ企業向け営業OJT
+- エンタープライズ企業向け営業OJT
 
 [チーム規模、役割]
-2名のチームで、営業担当として働いておりました。
+- 2名のチームで、営業担当として働いておりました。
 
 [担当業務]
 - 電力業界の企業様向けSaaS型勤怠管理システムの提案
@@ -184,13 +184,13 @@ Docker/kola-ansible/NFV/OpenStack/Vagrant/Virtualbox/Java/Fluentd/Norikra/GitBuc
 
 ### NFV検証用システムの開発(2016年、約6ヶ月)
 [プロジェクト概要]
-NFV検証に関する「試験用ワンコールシステムのIFアダプタの開発」および「管理システムの開発」
+- NFV検証に関する「試験用ワンコールシステムのIFアダプタの開発」および「管理システムの開発」
 
 [技術スタック]
-Python/Flask/Java/HTML/CSS/JavaScript/MySQL/Nginx/Jenkins/NFV/GitBucket/limechat/JIRA/Confluence
+- Python/Flask/Java/HTML/CSS/JavaScript/MySQL/Nginx/Jenkins/NFV/GitBucket/limechat/JIRA/Confluence
 
 [チーム規模、役割]
-5名程度のチームで、バックエンドエンジニアとして働いておりました。
+- 5名程度のチームで、バックエンドエンジニアとして働いておりました。
 
 [担当業務]
 - ローカル開発環境構築(Python、Javaなど)
@@ -203,13 +203,13 @@ Python/Flask/Java/HTML/CSS/JavaScript/MySQL/Nginx/Jenkins/NFV/GitBucket/limechat
 
 ### NFV検証環境の構築(2016年、約3ヶ月)
 [プロジェクト概要]
-国内大手通信企業様の電話サービスに関するNFVシナリオ（オートヒーリング、スケールアウト、システムアップデート）検証用の環境構築および検証を実施し、提案する。
+- 国内大手通信企業様の電話サービスに関するNFVシナリオ（オートヒーリング、スケールアウト、システムアップデート）検証用の環境構築および検証を実施し、提案する。
 
 [技術スタック]
-NFV/OpenStack/KVM/Ubuntu/GitBucket/Redmine/limechat
+- NFV/OpenStack/KVM/Ubuntu/GitBucket/Redmine/limechat
 
 [チーム規模、役割]
-10名弱程度のチームで、インフラエンジニアとして働いておりました。
+- 10名弱程度のチームで、インフラエンジニアとして働いておりました。
 
 [担当業務]
 - 検証環境サーバ約10台のLinuxOSのインストール
@@ -223,17 +223,17 @@ NFV/OpenStack/KVM/Ubuntu/GitBucket/Redmine/limechat
 
 ### 4次元可視化システムの開発および提案(2015年、約6ヶ月)
 [プロジェクト概要]
-XYZ平面および時間軸でjsonデータを4次元可視化するシステムのプロトタイプを開発し、営業担当と同行し提案する。
+- XYZ平面および時間軸でjsonデータを4次元可視化するシステムのプロトタイプを開発し、営業担当と同行し提案する。
 
 [技術スタック]
-JavaScript/Three.js/HTML/CSS
+- JavaScript/Three.js/HTML/CSS
 
 [チーム規模、役割]
-2名程度のチームで、フロントエンドエンジニアとして働いておりました。
+- 2名程度のチームで、フロントエンドエンジニアとして働いておりました。
 
 [担当業務]
-・大手海外通信企業様向けにネットワークの帯域使用率を可視化する4次元可視化システムのプロトタイプ開発と提案を実施。
-・水道管理システム企業様向けに河川の水位を可視化する4次元可視化システムのプロトタイプ開発と提案を実施。
+- 大手海外通信企業様向けにネットワークの帯域使用率を可視化する4次元可視化システムのプロトタイプ開発と提案を実施。
+- 水道管理システム企業様向けに河川の水位を可視化する4次元可視化システムのプロトタイプ開発と提案を実施。
 
 ## 言語
 - 日本語
@@ -249,21 +249,32 @@ JavaScript/Three.js/HTML/CSS
 https://www.researchgate.net/publication/268444818_Text_Classification_Using_Computational_Model_of_the_Cerebral_Cortex
 
 ## 長所
-### 長所その1 
-### 長所その2
+私の最大の長所は、高い成長意欲です。技術力や英語能力を向上させるために学生時代から自己研鑽し続けております。
+具体的には、自作Webサービスの開発、Qiitaでの記事投稿、書籍学習、単語学習、リスニング学習などです。
+
+### 自作WebサービスがニュースサイトGigazineで特集された
+機械学習の技術を活用して、アップロードした顔写真がジャニーズ系の顔かどうかを判定するWebアプリケーション「Johnny’s Face」(https://faceaudition.tk)をリリースし、Gigazineなどの様々なニュースサイトに取り上げていただき、リリース1週間で2万リクエストを達成しました。
+https://gigazine.net/news/20180808-johnnys-face/
+
+### Qiitaでバズりまくる
+これまでにGoやPython、機械学習、Dockerなどの約50記事を投稿し、10000以上のContributionsを獲得しております。
+
+この長所を活かし、たとえ未経験の技術や分野であっても速いキャッチアップをし、業務で貢献します。
 
 ## 資格
-* 認定スクラムマスター
-* 応用情報技術者
-* TOEIC790
+- 認定スクラムマスター
+- 応用情報技術者
+- TOEIC790
 
 ## ポートフォリオ
 ### ジャニーズ顔判定ができるWebサービス
 ログインや登録など一切不要で、顔写真をアップロードするだけで、その顔がジャニーズ顔かどうかを判定できるWebサービスです。継続的にご利用いただいておりましたが、現在はインフラコストの都合上停止中です。ニュースサイトGigazineでも特集されました。
+
 [AIを使って自分の顔がジャニーズ系かどうかを判定するWebサービスを作ってみた](https://qiita.com/gold-kou/items/e1a96657a63b043c4564)
 
 ### スマートスピーカーを使った通知サービス
 帰宅時刻の天気が悪天候であれば毎朝自動で傘を忘れないように音声通知してくれるサービスです。
+
 [「え！？朝は雨降ってなかったのに！傘持ってきてないよ〜。」を解決するGoogleHome連携アプリを作ってみた](https://qiita.com/gold-kou/items/887c79a58ad496e417d6)
 
 ## 各種リンク
