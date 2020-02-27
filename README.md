@@ -18,8 +18,8 @@ OpenAPI(Swagger)/gRPC
 ### Middleware
 PostgreSQL/MySQL/sqlite/Redis/DynamoDB/Nginx
 
-### Infra
-AWS/GCP
+### Public Cloud
+AWS(VPC/Route53/ELB/IAM/EC2/ECS/Fargate/Lambda/API Gateway/EBS/EFS/S3/RDS/DynamoDB/ElastiCache/SQS/CloudWatch/Auto Scaling)/GCP
 
 ### IaC
 CloudFormation/Ansible
@@ -40,21 +40,41 @@ JIRA/Confluence/Markdown
 Scrum/ウォーターフォール
 
 ## 職務経歴
-### 服の生産および発注管理システムの開発(2019-現在)
+### 服の生産や発注管理などに関する業務システムの開発(2019、約1年間)
 [プロジェクト概要]
+工場への服の生産発注や生産工程、出荷情報などを管理するシステムの開発
+服商品のマスタ情報を管理するシステムの開発
+社内システム間のマスタ情報データ連携を行うシステムの開発
 
 [技術スタック]
-Go/OpenAPI/gRPC/PostgreSQL/Docker/Nginx/AWS(ECS/Fargate/EC2/OpsWorks/Lambda/RDS/DynamoDB/S3など)/Digdag/Datadog/CircleCI/GitHub/JIRA/Confluence/Slack
+Go/Vue/TypeScript/OpenAPI/gRPC/PostgreSQL/Docker/Nginx/AWS(ECS/Fargate/EC2/OpsWorks/Lambda/RDS/DynamoDB/S3/CloudFormationなど)/Digdag/Datadog/CircleCI/GitHub/JIRA/Confluence/Slack
+
+[チーム規模、役割]
+10人弱程度のチームでテックリード兼バックエンドエンジニア兼スラクムマスターとして働いております。
 
 [担当業務]
+- 技術、アーキテクチャ選定
+- 設計(DB、IF、機能要件整理)
+- 実装（UT含む）
+- ソースコードレビュー
+- 試験
+- リリース
+- 運用
+- リファクタリング
+- スクラム導入
+- 開発ルール整備
+- 各種ドキュメント整備
+- 業務委託者管理
 
 ### パブリッククラウドサービスの開発(2018、約3ヶ月)
 [プロジェクト概要]
 企業向けパブリッククラウドサービスEnterprise Cloud2.0におけるベアメタルサービス関連の追加開発および運用。
-10名程度の規模のチームで、開発者として機能開発を行っておりました。
 
 [技術スタック]
 Ruby/Sinatra/Ansible/GitHub/Jenkins/Scrum
+
+[チーム規模、役割]
+10名程度のチームで、バックエンドエンジニアとして働いておりました。
 
 [担当業務]
 - Ansibleのplaybookの修正
@@ -69,6 +89,9 @@ Ruby/Sinatra/Ansible/GitHub/Jenkins/Scrum
 [技術スタック]
 OpenStack/KVM/Ansible/SR-IOV/CPUピニング/HugePage/NUMA
 
+[チーム規模、役割]
+5名強程度のチームで、PM補佐兼インフラエンジニアとして働いておりました。
+
 [担当業務]
 ・複数のOpenStack環境構築と構築手順書の作成
 ・SR-IOV、CPUピニング、HugePage、NUMAなどを用いたインフラの高速化チューニング設定
@@ -81,22 +104,30 @@ OpenStack/KVM/Ansible/SR-IOV/CPUピニング/HugePage/NUMA
 ### 中国での無人受付システムの開発(2017年、約3ヶ月)
 [プロジェクト概要]
 受付業務をネイティブアプリとビーコンにより無人化するWebサービスの開発。
+中国でスクラム開発を学んでくる。
 
 [技術スタック]
-Python/Flask/HTML/CSS/JavaScript/Nginx/AWS/Jenkins/GitLab/Scrum/JIRA/Confluence/mattermost
+Python/Flask/HTML/CSS/JavaScript/Android/Nginx/AWS/Jenkins/GitLab/Scrum/JIRA/Confluence/mattermost
+
+[チーム規模、役割]
+10名弱程度(日本人、中国人混在)のチームで、テックリード兼バックエンジニアとして働いておりました。
 
 [担当業務]
-- 中国に駐在し中国人と日本人の混在チームでスクラム開発
-- 主にWebサービスのバックエンド開発とAWS関連を担当
-- 設計(システム間連携/API/DB/画面遷移/クラス)
+- インフラ環境構築(AWS)
+- 開発メンバ全員の開発環境構築
+- ディレクトリ構成やファイルのひな型作成
+- 設計(IF/DB/画面遷移)
 - 実装(UT含む)
-- 試験実施
-- ネットワークトラブル対応
-- 特にプロジェクト開始前とSprint0においてリーダーシップを発揮。具体的には、開発メンバを代表して、プロダクトオーナーや既存SDK開発メンバとのコミュニケーションやアーキテクチャの決定、他開発メンバへの情報共有を実施。
-- PythonのテクニカルリーダとしてPythonやFlaskの基本説明、ディレクトリやファイルのひな型作成、リファクタリング担当、開発メンバ全員の開発環境構築などを実施。
-- ネットワークのテクニカルリーダとして通信関連の問題(メールやLINEメッセージ送信の失敗、push通知リクエストの失敗など)の原因解析を実施。
-- Git操作に不慣れな開発メンバにGitの指導を実施。
-- 帰国後に50人程度規模の社内向けスクラム開発イベントで登壇。
+- ソースコードレビュー
+- 試験
+- リファクタリング
+- スクラム各種イベント
+- ネットワークトラブル(メールやLINEメッセージ送信の失敗、push通知リクエストの失敗など)対応
+- プロジェクト開始前からプロダクトオーナーやSDK開発チームと積極的にコミュニケーションし開発メンバへ情報共有
+- 技術スタック、アーキテクチャ選定
+- Python/Flaskをチームメンバへレクチャ
+- Gitをチームメンバへレクチャ
+- 帰国後に50人程度規模の社内向けスクラム開発イベントで登壇
 
 ### サーバ仮想化および自動化に関する事前技術調査と提案(2017年、約3ヶ月)
 [プロジェクト概要]
@@ -104,6 +135,9 @@ Python/Flask/HTML/CSS/JavaScript/Nginx/AWS/Jenkins/GitLab/Scrum/JIRA/Confluence/
 
 [技術スタック]
 KVM/KickStart/Ansible/Zabbix
+
+[チーム規模、役割]
+2名のチームで、営業SEとして働いておりました。
 
 [担当業務]
 - 契約前の技術調査と提案と見積もり
@@ -118,6 +152,9 @@ KVM/KickStart/Ansible/Zabbix
 
 [技術スタック]
 Docker/kola-ansible/NFV/OpenStack/Vagrant/Virtualbox/Java/Fluentd/Norikra/GitBucket/Jenkins/JIRA/Confluence/mattermost
+
+[チーム規模、役割]
+1名で、OSS調査員として働いておりました。
 
 [担当業務]
 - Dockerインストール、基本コマンド、Dockerfile、docker-composeなどの調査および動作検証を実施し、社内勉強会開催。
@@ -135,6 +172,9 @@ Docker/kola-ansible/NFV/OpenStack/Vagrant/Virtualbox/Java/Fluentd/Norikra/GitBuc
 [プロジェクト概要]
 エンタープライズ企業向け営業OJT
 
+[チーム規模、役割]
+2名のチームで、営業担当として働いておりました。
+
 [担当業務]
 - 電力業界の企業様向けSaaS型勤怠管理システムの提案
 - 電力業界の企業様向け基盤システムの運用保守契約更新
@@ -148,6 +188,9 @@ NFV検証に関する「試験用ワンコールシステムのIFアダプタの
 
 [技術スタック]
 Python/Flask/Java/HTML/CSS/JavaScript/MySQL/Nginx/Jenkins/NFV/GitBucket/limechat/JIRA/Confluence
+
+[チーム規模、役割]
+5名程度のチームで、バックエンドエンジニアとして働いておりました。
 
 [担当業務]
 - ローカル開発環境構築(Python、Javaなど)
@@ -164,6 +207,9 @@ Python/Flask/Java/HTML/CSS/JavaScript/MySQL/Nginx/Jenkins/NFV/GitBucket/limechat
 
 [技術スタック]
 NFV/OpenStack/KVM/Ubuntu/GitBucket/Redmine/limechat
+
+[チーム規模、役割]
+10名弱程度のチームで、インフラエンジニアとして働いておりました。
 
 [担当業務]
 - 検証環境サーバ約10台のLinuxOSのインストール
@@ -182,6 +228,9 @@ XYZ平面および時間軸でjsonデータを4次元可視化するシステム
 [技術スタック]
 JavaScript/Three.js/HTML/CSS
 
+[チーム規模、役割]
+2名程度のチームで、フロントエンドエンジニアとして働いておりました。
+
 [担当業務]
 ・大手海外通信企業様向けにネットワークの帯域使用率を可視化する4次元可視化システムのプロトタイプ開発と提案を実施。
 ・水道管理システム企業様向けに河川の水位を可視化する4次元可視化システムのプロトタイプ開発と提案を実施。
@@ -193,8 +242,9 @@ JavaScript/Three.js/HTML/CSS
   - 流暢ではないがコミュニケーションはできる
   - TOEIC: 790点
 
-## 大学時代の研究
-大学では自然言語処理とAIに関する研究をしておりました。「人間の大脳皮質の情報処理原理を用いたテキストのカテゴリー分類」というテーマで国際学会に登壇して発表した経験があります。以下は論文のリンクになります。
+## 学生時代の研究
+大学および大学院では自然言語処理と機械学習に関する研究をしておりました。
+「人間の大脳皮質の情報処理原理を用いたテキストのカテゴリー分類」というテーマで国際学会に登壇して発表した経験があります。以下は論文のリンクになります。
 
 https://www.researchgate.net/publication/268444818_Text_Classification_Using_Computational_Model_of_the_Cerebral_Cortex
 
@@ -208,8 +258,16 @@ https://www.researchgate.net/publication/268444818_Text_Classification_Using_Com
 * TOEIC790
 
 ## ポートフォリオ
+### ジャニーズ顔判定ができるWebサービス
+ログインや登録など一切不要で、顔写真をアップロードするだけで、その顔がジャニーズ顔かどうかを判定できるWebサービスです。継続的にご利用いただいておりましたが、現在はインフラコストの都合上停止中です。ニュースサイトGigazineでも特集されました。
+[AIを使って自分の顔がジャニーズ系かどうかを判定するWebサービスを作ってみた](https://qiita.com/gold-kou/items/e1a96657a63b043c4564)
+
+### スマートスピーカーを使った通知サービス
+帰宅時刻の天気が悪天候であれば毎朝自動で傘を忘れないように音声通知してくれるサービスです。
+[「え！？朝は雨降ってなかったのに！傘持ってきてないよ〜。」を解決するGoogleHome連携アプリを作ってみた](https://qiita.com/gold-kou/items/887c79a58ad496e417d6)
 
 ## 各種リンク
-* [Qiita](https://qiita.com/gold-kou)
-* [Twitter](https://twitter.com/gold_kou)
-* [LinkedIn](https://www.linkedin.com/in/koki-hatano-258a42166/)
+- [Qiita](https://qiita.com/gold-kou)
+- [stack overflow] https://stackoverflow.com/users/9048198/gold-kou
+- [Twitter](https://twitter.com/gold_kou)
+- [LinkedIn](https://www.linkedin.com/in/koki-hatano-258a42166/)
