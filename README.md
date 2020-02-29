@@ -259,7 +259,7 @@ Python/Flask/HTML/CSS(BootStrap)/JavaScript/Nginx/AWS(EC2/Route53など)/GCP(GCS
 
 [AIを使って自分の顔がジャニーズ系かどうかを判定するWebサービスを作ってみた](https://qiita.com/gold-kou/items/e1a96657a63b043c4564)
 
-### スマートスピーカーを使った通知サービス
+### スマートスピーカーを使った雨傘備忘通知サービス
 Python/Node.js/Google Home
 
 帰宅時刻の天気が悪天候であれば毎朝自動で傘を忘れないように音声通知してくれるサービスです。
