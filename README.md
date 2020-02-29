@@ -37,6 +37,18 @@ JIRA/Confluence/Markdown
 ### 開発手法
 Scrum/ウォーターフォール
 
+## 言語
+- 日本語
+  - ネイティブ
+- 英語
+  - 流暢ではないがコミュニケーションはできる
+  - TOEIC: 790点
+
+## 資格
+- 認定スクラムマスター
+- 応用情報技術者
+- TOEIC790
+
 ## 職務経歴
 ### アパラル商品の生産・発注管理システムの開発(2019、約1年間)
 [プロジェクト概要]
@@ -80,7 +92,7 @@ Go/Vue/TypeScript/OpenAPI/gRPC/PostgreSQL/Docker/Nginx/AWS(ECS/Fargate/EC2/OpsWo
 - API公開ドキュメントの修正
 - 運用業務
 
-### 電話サービスのOpenStack導入に向けた検証(2018年、約9ヶ月)
+### IP電話サービスのOpenStack導入に向けた検証(2018年、約9ヶ月)
 [プロジェクト概要]
 - 全国規模の大量トラフィックを前提としたIP電話サービスを、OpenStack上で運用するための商用想定検証環境のインフラ設計と構築。
 
@@ -233,18 +245,22 @@ Go/Vue/TypeScript/OpenAPI/gRPC/PostgreSQL/Docker/Nginx/AWS(ECS/Fargate/EC2/OpsWo
 - 大手海外通信企業様向けにネットワークの帯域使用率を可視化する4次元可視化システムのプロトタイプ開発と提案を実施。
 - 水道管理システム企業様向けに河川の水位を可視化する4次元可視化システムのプロトタイプ開発と提案を実施。
 
-## 言語
-- 日本語
-  - ネイティブ
-- 英語
-  - 流暢ではないがコミュニケーションはできる
-  - TOEIC: 790点
-
 ## 学生時代の研究
 大学および大学院では自然言語処理と機械学習に関する研究をしておりました。
 「人間の大脳皮質の情報処理原理を用いたテキストのカテゴリー分類」というテーマで国際学会に登壇して発表した経験があります。以下は論文のリンクになります。
 
 https://www.researchgate.net/publication/268444818_Text_Classification_Using_Computational_Model_of_the_Cerebral_Cortex
+
+## ポートフォリオ
+### ジャニーズ顔判定ができるWebサービス[Python/Flask/HTML/CSS(BootStrap)/JavaScript/Nginx/AWS(EC2/Route53など)/GCP(GCS/GCV)/OpenCV/scikit-learn]
+ログインや登録など一切不要で、顔写真をアップロードするだけで、その顔がジャニーズ顔かどうかを判定できるWebサービスです。継続的にご利用いただいておりましたが、現在はインフラコストの都合上停止中です。ニュースサイトGigazineでも特集されました。
+
+[AIを使って自分の顔がジャニーズ系かどうかを判定するWebサービスを作ってみた](https://qiita.com/gold-kou/items/e1a96657a63b043c4564)
+
+### スマートスピーカーを使った通知サービス[Python/Node.js/Google Home]
+帰宅時刻の天気が悪天候であれば毎朝自動で傘を忘れないように音声通知してくれるサービスです。
+
+[「え！？朝は雨降ってなかったのに！傘持ってきてないよ〜。」を解決するGoogleHome連携アプリを作ってみた](https://qiita.com/gold-kou/items/887c79a58ad496e417d6)
 
 ## 長所
 私の最大の長所は、高い成長意欲です。技術力や英語能力を向上させるために学生時代から自己研鑽し続けております。
@@ -259,22 +275,6 @@ https://gigazine.net/news/20180808-johnnys-face/
 ### 長所のエビデンス②Qiitaでバズりまくる
 これまでにGoやPython、機械学習、Dockerなどの約50記事を投稿し、10000以上のContributionsを獲得しております。
 [Qiita](https://qiita.com/gold-kou)
-
-## 資格
-- 認定スクラムマスター
-- 応用情報技術者
-- TOEIC790
-
-## ポートフォリオ
-### ジャニーズ顔判定ができるWebサービス[Python/Flask/HTML/CSS(BootStrap)/JavaScript/Nginx/AWS(EC2/Route53など)/GCP(GCS/GCV)/OpenCV/scikit-learn]
-ログインや登録など一切不要で、顔写真をアップロードするだけで、その顔がジャニーズ顔かどうかを判定できるWebサービスです。継続的にご利用いただいておりましたが、現在はインフラコストの都合上停止中です。ニュースサイトGigazineでも特集されました。
-
-[AIを使って自分の顔がジャニーズ系かどうかを判定するWebサービスを作ってみた](https://qiita.com/gold-kou/items/e1a96657a63b043c4564)
-
-### スマートスピーカーを使った通知サービス[Python/Node.js/Google Home]
-帰宅時刻の天気が悪天候であれば毎朝自動で傘を忘れないように音声通知してくれるサービスです。
-
-[「え！？朝は雨降ってなかったのに！傘持ってきてないよ〜。」を解決するGoogleHome連携アプリを作ってみた](https://qiita.com/gold-kou/items/887c79a58ad496e417d6)
 
 ## 各種リンク
 - [Qiita](https://qiita.com/gold-kou)
