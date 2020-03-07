@@ -64,6 +64,7 @@ Go/Vue/TypeScript/OpenAPI/gRPC/PostgreSQL/Docker/Nginx/AWS(ECS/Fargate/EC2/OpsWo
 
 [担当業務]
 - 技術、アーキテクチャ選定
+- CloudFormationによるインフラ構築
 - 設計(DB、IF、機能要件整理)
 - 実装（UT含む）
 - ソースコードレビュー
