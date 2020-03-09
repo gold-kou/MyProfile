@@ -52,9 +52,9 @@ Scrum/ウォーターフォール
 ## 職務経歴
 ### アパラル商品の生産・発注管理システムの開発(2019、約1年間)
 [プロジェクト概要]
-- 工場へのアパレル商品の生産発注や生産工程、出荷情報などを管理するシステムの開発
-- アパレル商品のマスタ情報を管理するシステムの開発
-- 社内システム間のデータ連携システムの開発
+- 工場へのアパレル商品の生産発注や生産工程、出荷情報などを管理するシステムの新規開発
+- アパレル商品のマスタ情報を管理するシステムの新規開発
+- 社内システム間のデータ連携システムの新規開発
 
 [技術スタック]
 Go/Vue/TypeScript/OpenAPI/gRPC/PostgreSQL/Docker/Nginx/AWS(ECS/Fargate/EC2/OpsWorks/Lambda/RDS/DynamoDB/S3/CloudFormationなど)/Digdag/Datadog/CircleCI/GitHub/JIRA/Confluence/Slack
@@ -63,18 +63,41 @@ Go/Vue/TypeScript/OpenAPI/gRPC/PostgreSQL/Docker/Nginx/AWS(ECS/Fargate/EC2/OpsWo
 - 10人弱程度のチームでテックリード兼バックエンドエンジニア兼スラクムマスターとして働いております。
 
 [担当業務]
-- 技術、アーキテクチャ選定
-- CloudFormationによるインフラ構築
-- 設計(DB、IF、機能要件整理)
-- 実装（UT含む）
-- ソースコードレビュー
-- 試験
-- リリース
-- 運用
-- リファクタリング
-- スクラム導入
+- ソフトウェア開発業務
+  - 技術、アーキテクチャ、外部ライブラリ選定、Gitリポジトリのディレクトリ構成雛形作成
+  - CloudFormationによるインフラ構築
+  - 設計(DB、IF、機能要件整理、ログ)
+  - 実装（UT含む）
+  - ソースコードレビュー
+  - 試験
+  - リリース
+  - 運用
+  - リファクタリング
+- 新規アイディアの導入
+  - MultiServices/MicroServicesの導入
+  - gRPCの導入
+  - スクラム導入
+    - 勉強会開催
+    - ルールの事前準備
+    - イベント用ページの整備
+    - 妨害BLの管理
 - 開発ルール整備
+  - コーディング規約の策定
+  - チーム独自コーディングルールの策定
+  - RVパスルールの策定
+  - JIRA運用ルールの策定
+  - PRルールの策定
+  - etc
 - 各種ドキュメント整備
+  - リリース手順書
+  - 連携システムAPI実行手順書
+  - DB接続手順書
+  - ローカルDB初期化手順書
+  - ローカル環境構築手順書
+  - API追加開発手順書
+  - 障害発生時の原因解析手順書
+  - 開発Tipsページの作成
+  - etc
 - 業務委託者管理
 
 ### パブリッククラウドサービスの開発(2018、約3ヶ月)
@@ -82,7 +105,7 @@ Go/Vue/TypeScript/OpenAPI/gRPC/PostgreSQL/Docker/Nginx/AWS(ECS/Fargate/EC2/OpsWo
 - 企業向けパブリッククラウドサービスEnterprise Cloud2.0におけるベアメタルサービス関連の追加開発および運用。
 
 [技術スタック]
-- Ruby/Sinatra/Ansible/GitHub/Jenkins/Scrum
+- Ruby/Sinatra/Ansible/GitHub/Jenkins/Scrum/JIRA/Confluence
 
 [チーム規模、役割]
 - 10名程度のチームで、バックエンドエンジニアとして働いておりました。
