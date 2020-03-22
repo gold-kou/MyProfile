@@ -65,6 +65,7 @@ Go/Vue/TypeScript/OpenAPI/gRPC/PostgreSQL/Docker/Nginx/AWS(ECS/Fargate/EC2/OpsWo
 [担当業務]
 - ソフトウェア開発業務
   - 技術、アーキテクチャ、外部ライブラリ選定、Gitリポジトリのディレクトリ構成雛形作成
+  - WBS作成
   - CloudFormationによるインフラ構築
   - 設計(DB、IF、機能要件整理、ログ)
   - 実装（UT含む）
@@ -73,7 +74,8 @@ Go/Vue/TypeScript/OpenAPI/gRPC/PostgreSQL/Docker/Nginx/AWS(ECS/Fargate/EC2/OpsWo
   - リリース
   - 運用
   - リファクタリング
-- 新規アイディアの導入
+  - 業務委託者管理
+- 新規メソッドの導入
   - MultiServices/MicroServicesの導入
   - gRPCの導入
   - スクラム導入
@@ -98,7 +100,7 @@ Go/Vue/TypeScript/OpenAPI/gRPC/PostgreSQL/Docker/Nginx/AWS(ECS/Fargate/EC2/OpsWo
   - 障害発生時の原因解析手順書
   - 開発Tipsページの作成
   - etc
-- 業務委託者管理
+
 
 ### パブリッククラウドサービスの開発(2018、約3ヶ月)
 [プロジェクト概要]
