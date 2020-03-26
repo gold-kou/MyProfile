@@ -57,7 +57,7 @@ Scrum/ウォーターフォール
 - 社内システム間のデータ連携システムの新規開発
 
 [技術スタック]
-Go/Vue/TypeScript/OpenAPI/gRPC/PostgreSQL/Docker/Nginx/AWS(ECS/Fargate/EC2/OpsWorks/Lambda/RDS/DynamoDB/S3/CloudFormationなど)/Digdag/Datadog/CircleCI/GitHub/JIRA/Confluence/Slack
+Go/OpenAPI/gRPC/PostgreSQL/Docker/Nginx/AWS(ECS/Fargate/EC2/OpsWorks/Lambda/RDS/DynamoDB/S3/CloudFormationなど)/Digdag/Datadog/CircleCI/GitHub/JIRA/Confluence/Slack
 
 [チーム規模、役割]
 - 10人弱程度のチームでテックリード兼バックエンドエンジニア兼スラクムマスターとして働いております。
@@ -80,7 +80,7 @@ Go/Vue/TypeScript/OpenAPI/gRPC/PostgreSQL/Docker/Nginx/AWS(ECS/Fargate/EC2/OpsWo
   - gRPCの導入
   - スクラム導入
     - 勉強会開催
-    - ルールの事前準備
+    - ルール整備
     - イベント用ページの整備
     - 妨害BLの管理
 - 開発ルール整備
@@ -100,7 +100,6 @@ Go/Vue/TypeScript/OpenAPI/gRPC/PostgreSQL/Docker/Nginx/AWS(ECS/Fargate/EC2/OpsWo
   - 障害発生時の原因解析手順書
   - 開発Tipsページの作成
   - etc
-
 
 ### パブリッククラウドサービスの開発(2018、約3ヶ月)
 [プロジェクト概要]
