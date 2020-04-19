@@ -1,20 +1,17 @@
 # 職務経歴書
-## 概要
+## 職務概要
 - 約3年間のシステム開発の業務経験があります
 - 約2年間のプライベートクラウド、サーバ仮想化、自動化関連のインフラ業務経験があります
 
 ## テクニカルスキル
 ### プログラミング言語
-Go/Java/Python/Ruby/HTML/CSS/JavaScript
-
-### フレームワーク
-gorilla/Flask/Sinatra
+Go(gorilla)/Java(JavaEE)/Python(Flask)/Ruby(Sinatra)/HTML/CSS/JavaScript
 
 ### API
 OpenAPI(Swagger)/gRPC
 
-### Middleware
-PostgreSQL/MySQL/sqlite/Redis/DynamoDB/Nginx
+### DB
+PostgreSQL/MySQL/sqlite/Redis/DynamoDB
 
 ### Public Cloud
 AWS(VPC/Route53/ELB/IAM/EC2/ECS/Fargate/Lambda/API Gateway/EBS/EFS/S3/RDS/DynamoDB/ElastiCache/SQS/CloudWatch/Auto Scaling)/GCP
@@ -277,19 +274,59 @@ Go/OpenAPI/gRPC/PostgreSQL/Docker/Nginx/AWS(ECS/Fargate/EC2/OpsWorks/Lambda/RDS/
 https://www.researchgate.net/publication/268444818_Text_Classification_Using_Computational_Model_of_the_Cerebral_Cortex
 
 ## ポートフォリオ
+### 家事管理ソフトウェア
+Go/OpenAPI(Swagger)/Nginx/PostgreSQL/Docker/CircleCI/Gitなど
+
+家事管理をするソフトウェアです。現状はバックエンドのみの実装となっています。
+
+開発規模：
+HTMLはcoverage.htmlのものです。
+
+```sh
+$  cloc ./ --exclude-dir=go-modules
+     178 text files.
+     174 unique files.
+     294 files ignored.
+
+github.com/AlDanial/cloc v 1.84  T=0.58 s (263.3 files/s, 24609.2 lines/s)
+-------------------------------------------------------------------------------
+Language                     files          blank        comment           code
+-------------------------------------------------------------------------------
+Go                             137           1100           1243           6857
+HTML                             1            605              0           3059
+YAML                             3              3              4           1007
+Markdown                         1             34              0            214
+Dockerfile                       4             30             33             62
+SQL                              3              4              0             45
+make                             1              8              1             29
+Bourne Shell                     4             12             23             20
+-------------------------------------------------------------------------------
+SUM:                           154           1796           1304          11293
+-------------------------------------------------------------------------------
+```
+
+GitHub：
+https://github.com/gold-kou/go-housework
+
 ### ジャニーズ顔判定ができるWebサービス
 Python/Flask/HTML/CSS(BootStrap)/JavaScript/Nginx/AWS(EC2/Route53など)/GCP(GCS/GCV)/OpenCV/scikit-learn
 
 ログインや登録など一切不要で、顔写真をアップロードするだけで、その顔がジャニーズ顔かどうかを判定できるWebサービスです。継続的にご利用いただいておりましたが、現在はインフラコストの都合上停止中です。ニュースサイトGigazineでも特集されました。
 
+紹介記事：
 [AIを使って自分の顔がジャニーズ系かどうかを判定するWebサービスを作ってみた](https://qiita.com/gold-kou/items/e1a96657a63b043c4564)
+GitHub：
+https://github.com/gold-kou/face-audition-johnnys
 
 ### スマートスピーカーを使った雨傘備忘通知サービス
 Python/Node.js/Google Home
 
 帰宅時刻の天気が悪天候であれば毎朝自動で傘を忘れないように音声通知してくれるサービスです。
 
+紹介記事：
 [「え！？朝は雨降ってなかったのに！傘持ってきてないよ〜。」を解決するGoogleHome連携アプリを作ってみた](https://qiita.com/gold-kou/items/887c79a58ad496e417d6)
+GitHub：
+https://github.com/gold-kou/never-forget-umbrella
 
 ## 長所
 私の最大の長所は、高い成長意欲です。技術力や英語能力を向上させるために学生時代から自己研鑽し続けております。
