@@ -1,11 +1,11 @@
 # 職務経歴書
 ## 職務概要
-- 約3年間のシステム開発の業務経験があります
-- 約2年間のプライベートクラウド、サーバ仮想化、自動化関連のインフラ業務経験があります
+- 約3年間のシステム開発の業務経験があります。設計、実装、テスト、リリースなど一連の開発工程に加えて、アーキテクチャ選定や技術選定、スクラム導入などの経験もあります。
+- 約2年間のプライベートクラウド、サーバ仮想化、自動化関連の業務経験があります。ホストOSのインストールから始まり、OpenStack環境の構築、仮想リソース作成、Ansibleを使った自動化などの経験があります。
 
 ## テクニカルスキル
 ### プログラミング言語
-Go(gorilla)/Java(JavaEE)/Python(Flask)/Ruby(Sinatra)/HTML/CSS/JavaScript
+Go/Java(JavaEE)/Python(Flask)/Ruby/HTML/CSS/JavaScript
 
 ### API
 OpenAPI(Swagger)/gRPC
