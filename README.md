@@ -8,17 +8,21 @@
 ## 職務経歴詳細
 ### アパラル商品の生産・発注管理システムの開発(2019-現在、約1年3ヶ月)
 [プロジェクト概要]
+
 - アパレル商品の生産発注・生産工程・出荷などを管理する工場連携システムの新規開発
 - アパレル商品のマスタ情報を管理するシステムの新規開発
 - 社内システム間のデータ連携システムの新規開発
 
 [技術スタック]
-Go/OpenAPI/gRPC/PostgreSQL/Docker/Nginx/AWS(ECS/Fargate/EC2/OpsWorks/Lambda/RDS/DynamoDB/S3/CloudFormationなど)/Digdag/Datadog/CircleCI/GitHub/JIRA/Confluence/Slack
+
+- Go/OpenAPI/gRPC/PostgreSQL/Docker/Nginx/AWS(ECS/Fargate/EC2/OpsWorks/Lambda/RDS/DynamoDB/S3/CloudFormationなど)/Digdag/Datadog/CircleCI/GitHub/JIRA/Confluence/Slack
 
 [チーム規模、役割]
+
 - 10人弱程度のチームでテックリード兼バックエンドエンジニア兼スラクムマスターとして働いております。
 
 [担当業務]
+
 - 一連のシステム開発工程
   - インフラ構築
     - インフラアーキテクチャ選定
@@ -70,15 +74,19 @@ Go/OpenAPI/gRPC/PostgreSQL/Docker/Nginx/AWS(ECS/Fargate/EC2/OpsWorks/Lambda/RDS/
 
 ### パブリッククラウドサービスの開発(2018、約3ヶ月)
 [プロジェクト概要]
+
 - 企業向けパブリッククラウドサービスEnterprise Cloud2.0におけるベアメタルサービスの追加開発および運用。
 
 [技術スタック]
+
 - Ruby/sidekiq/Ansible/GitHub/Jenkins/Scrum/JIRA/Confluence
 
 [チーム規模、役割]
+
 - 10名程度のチームで、バックエンドエンジニアとして働いておりました。
 
 [担当業務]
+
 - SSD寿命情報の定期取得とアラーム発砲機能の開発およびUT実装
 - Ansibleのplaybook修正
 - API公開ドキュメントの修正
@@ -86,15 +94,19 @@ Go/OpenAPI/gRPC/PostgreSQL/Docker/Nginx/AWS(ECS/Fargate/EC2/OpsWorks/Lambda/RDS/
 
 ### 大規模IP電話サービスのOpenStack導入に向けた検証(2018年、約9ヶ月)
 [プロジェクト概要]
+
 - 全国規模の大規模IP電話サービスをOpenStack上で構築・運用するために、商用環境を想定した技術検証。
 
 [技術スタック]
+
 - OpenStack/KVM/Ansible/SR-IOV/CPUピニング/HugePage/NUMA
 
 [チーム規模、役割]
+
 - 10名程度のチームで、PM補佐兼インフラエンジニアとして働いておりました。
 
 [担当業務]
+
 - 複数のOpenStack環境構築と構築手順書の作成
 - SR-IOV、CPUピニング、HugePage、NUMAなどを用いたインフラの高速化チューニング設定
 - Ansibleを用いたOpenStack環境の正常性確認の自動化
@@ -105,15 +117,19 @@ Go/OpenAPI/gRPC/PostgreSQL/Docker/Nginx/AWS(ECS/Fargate/EC2/OpsWorks/Lambda/RDS/
 
 ### 中国での無人受付システムの開発(2017年、約3ヶ月)
 [プロジェクト概要]
+
 - 受付業務をネイティブアプリとビーコンにより無人化するWebサービスを中国に常駐して開発する。
 
 [技術スタック]
+
 - Python/Flask/HTML/CSS/JavaScript/Android/Nginx/AWS/Jenkins/GitLab/Scrum/JIRA/Confluence/mattermost
 
 [チーム規模、役割]
+
 - 10名弱程度(日本人、中国人混在)のチームで、テックリード兼バックエンジニアとして働いておりました。
 
 [担当業務]
+
 - AWS環境構築
 - 開発メンバのローカル開発環境構築
 - ディレクトリテンプレートの作成
@@ -132,15 +148,19 @@ Go/OpenAPI/gRPC/PostgreSQL/Docker/Nginx/AWS(ECS/Fargate/EC2/OpsWorks/Lambda/RDS/
 
 ### サーバ仮想化および自動化に関する技術調査と提案(2017年、約3ヶ月)
 [プロジェクト概要]
+
 - 国内大手通信企業様のカスタマーコントローラサーバ（エンドユーザが自身の申し込んだ通信サービスの設定を変更できるサーバ）のハイパーバイザ型仮想化と自動化の導入に向けた調査と提案。
 
 [技術スタック]
+
 - KVM/KickStart/Ansible/Zabbix
 
 [チーム規模、役割]
+
 - 2名のチームで、営業SEとして働いておりました。
 
 [担当業務]
+
 - 契約前の技術調査と提案と見積もり
 - KickStartに関する調査および動作検証
 - AnsibleによるゲストOSインストールと必要パッケージインストール作業の自動化に関する調査および動作検証と工数見積もり
@@ -148,15 +168,19 @@ Go/OpenAPI/gRPC/PostgreSQL/Docker/Nginx/AWS(ECS/Fargate/EC2/OpsWorks/Lambda/RDS/
 
 ### サーバ仮想化関連のOSS調査(2017年、約6ヶ月)
 [プロジェクト概要]
+
 - サーバ仮想化や自動化に関するOSSの調査および動作検証などを実施し、調査内容を社内共有する。
 
 [技術スタック]
+
 - Docker/kola-ansible/NFV/OpenStack/Vagrant/Virtualbox/Java/Fluentd/Norikra/GitBucket/Jenkins/JIRA/Confluence/mattermost
 
 [チーム規模、役割]
+
 - 1名で、OSS調査員として働いておりました。
 
 [担当業務]
+
 - Dockerの調査および動作検証を実施し、社内勉強会を開催。
 - kolla-ansible(OpenStackの各コンポーネントをコンテナとして扱うことでOpenStackのバージョン更新作業を簡易化するコンポーネント)の調査および動作検証を実施し、社内勉強会を開催。
 - OSSのMANO(OpenBaton/ Tacker/Open Source MANO)の各公式ドキュメントからドキュメント充実度・機能充実度・コミュニティ活発度などを調査比較。OpenBatonを調査対象として決定。
@@ -170,15 +194,19 @@ Go/OpenAPI/gRPC/PostgreSQL/Docker/Nginx/AWS(ECS/Fargate/EC2/OpsWorks/Lambda/RDS/
 
 ### NFV検証用システムの開発(2016年、約6ヶ月)
 [プロジェクト概要]
+
 - NFV検証に関する「試験用ワンコールシステムのIFアダプタの開発」および「NFV管理システムの開発」
 
 [技術スタック]
+
 - Python/Flask/Java/HTML/CSS/JavaScript/MySQL/Nginx/Jenkins/NFV/GitBucket/JIRA/Confluence/mattermost
 
 [チーム規模、役割]
+
 - 5名程度のチームで、バックエンドエンジニアとして働いておりました。
 
 [担当業務]
+
 - ローカル開発環境構築(Python、Javaなど)
 - IT環境構築
 - CI環境構築
@@ -190,15 +218,19 @@ Go/OpenAPI/gRPC/PostgreSQL/Docker/Nginx/AWS(ECS/Fargate/EC2/OpsWorks/Lambda/RDS/
 
 ### NFV検証環境の構築(2016年、約3ヶ月)
 [プロジェクト概要]
+
 - 大規模電話サービス向けのNFVシナリオ（オートヒーリング、スケールアウト、システムアップデート）検証用の環境構築および検証を実施し、提案する。
 
 [技術スタック]
+
 - NFV/OpenStack/KVM/Ubuntu/GitBucket/Redmine/mattermost
 
 [チーム規模、役割]
+
 - 10名弱程度のチームで、インフラエンジニアとして働いておりました。
 
 [担当業務]
+
 - 検証環境サーバ約10台のLinuxOSのインストール
 - Teratermマクロの作成
 - ローカルリポジトリ構築
@@ -210,12 +242,15 @@ Go/OpenAPI/gRPC/PostgreSQL/Docker/Nginx/AWS(ECS/Fargate/EC2/OpsWorks/Lambda/RDS/
 
 ### エンタープライズ企業向け営業活動(2016年、約3ヶ月)
 [プロジェクト概要]
+
 - エンタープライズ企業向け営業OJT
 
 [チーム規模、役割]
+
 - 2名のチームで、営業担当として働いておりました。
 
 [担当業務]
+
 - 電力業界の企業様向けSaaS型勤怠管理システムの提案
 - 電力業界の企業様向け基盤システムの運用保守契約更新
 - 官公庁向けThinクライアント端末移行プロジェクトにおける大規模トラブルにおけるエンドユーザ対応
@@ -224,15 +259,19 @@ Go/OpenAPI/gRPC/PostgreSQL/Docker/Nginx/AWS(ECS/Fargate/EC2/OpsWorks/Lambda/RDS/
 
 ### 4次元可視化システムの開発および提案(2015年、約6ヶ月)
 [プロジェクト概要]
+
 - XYZ平面および時間軸でjsonデータを4次元可視化するシステムのプロトタイプを開発し、営業担当と同行し提案する。
 
 [技術スタック]
+
 - JavaScript/Three.js/HTML/CSS
 
 [チーム規模、役割]
+
 - 2名程度のチームで、フロントエンドエンジニアとして働いておりました。
 
 [担当業務]
+
 - 大手海外通信企業様向けにネットワークの帯域使用率を可視化する4次元可視化システムのプロトタイプ開発と提案を実施。
 - 水道管理システム企業様向けに河川の水位を可視化する4次元可視化システムのプロトタイプ開発と提案を実施。
 
@@ -367,6 +406,7 @@ https://gigazine.net/news/20180808-johnnys-face/
 [Qiita](https://qiita.com/gold-kou)
 
 ## 各種リンク
+
 - [Qiita](https://qiita.com/gold-kou)
 - [stack overflow](https://stackoverflow.com/users/9048198/gold-kou)
 - [LinkedIn](https://www.linkedin.com/in/koki-hatano-258a42166/)
