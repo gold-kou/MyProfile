@@ -8,7 +8,7 @@
 ## 職務経歴詳細
 ### アパラル商品の生産・発注管理システムの開発(2019-現在、約1年3ヶ月)
 [プロジェクト概要]
-- 工場へのアパレル商品の生産発注や生産工程、出荷情報などを管理するシステムの新規開発
+- アパレル商品の生産発注・生産工程・出荷などを管理する工場連携システムの新規開発
 - アパレル商品のマスタ情報を管理するシステムの新規開発
 - 社内システム間のデータ連携システムの新規開発
 
@@ -19,61 +19,58 @@ Go/OpenAPI/gRPC/PostgreSQL/Docker/Nginx/AWS(ECS/Fargate/EC2/OpsWorks/Lambda/RDS/
 - 10人弱程度のチームでテックリード兼バックエンドエンジニア兼スラクムマスターとして働いております。
 
 [担当業務]
-- 開発準備
-  - 要件定義をチケット化
-  - 技術・アーキテクチャ・外部ライブラリなどの選定
-  - 新システムのディレクトリテンプレート作成
-  - 事前技術調査
-  - AWSとAlibabaの性能比較
-- インフラ
-  - インフラアーキテクチャ選定
-  - CloudFormationの実装
-- 設計
-  - 機能要件書作成
-  - RDBテーブル設計
-  - DynamoDBテーブル設計
-  - IF設計(OpenAPI/gRPC)
-  - ログ設計方針策定
-- 実装  
-  - コーディング
-  - UT
-  - ソースコードレビュー
-- 試験
-  - ローカル環境およびステージング環境での結合試験の実施
-  - 総合試験項目書の作成
-- リリース
-- リファクタリング
-- 業務委託者管理
-- 新規ソリューションの導入
-  - MultiServices/MicroServicesの導入
-  - gRPCの導入
-  - スクラム導入
-    - 勉強会開催
-    - ルール整備
-    - イベント用ページの整備
-    - 妨害BLの管理
-- 開発環境整備
+- 一連のシステム開発工程
+  - インフラ構築
+    - インフラアーキテクチャ選定
+    - CloudFormationの実装
+  - 設計
+    - 機能要件書作成
+    - RDBテーブル設計
+    - DynamoDBテーブル設計
+    - IF設計(OpenAPI/gRPC)
+    - ログ設計
+  - 実装  
+    - コーディング
+    - UT
+    - ソースコードレビュー
+  - 試験
+    - 結合試験の実施
+    - 総合試験項目書の作成
+  - リリース
+- 開発管理業務  
+  - JIRAタスク管理
+  - 業務委託者管理
   - 開発ルール整備
     - コーディング規約の策定
-    - チーム独自コーディングルールの策定
     - RVパスルールの策定
     - JIRA運用ルールの策定
     - PRルールの策定
-    - etc
   - 各種ドキュメント整備
     - リリース手順書
     - 連携システムAPI実行手順書
     - DB接続手順書
-    - ローカルDB初期化手順書
     - ローカル環境構築手順書
-    - API追加開発手順書
+    - API追加開発の手引き
     - 障害発生時の原因解析手順書
     - 開発Tipsページの作成
-    - etc
+- 開発補助業務
+  - リファクタリング
+  - 技術選定(言語、アーキテクチャ、外部ライブラリなど) 
+  - ディレクトリテンプレート作成
+  - 事前技術調査
+  - AWSとAlibabaの性能比較  
+  - 新規ソリューションの導入
+    - MultiServices/MicroServicesの導入
+    - gRPCの導入
+    - スクラム導入
+      - 勉強会開催
+      - ルール整備
+      - イベント用ページの整備
+      - 妨害BLの管理
 
 ### パブリッククラウドサービスの開発(2018、約3ヶ月)
 [プロジェクト概要]
-- 企業向けパブリッククラウドサービスEnterprise Cloud2.0におけるベアメタルサービス関連の追加開発および運用。
+- 企業向けパブリッククラウドサービスEnterprise Cloud2.0におけるベアメタルサービスの追加開発および運用。
 
 [技術スタック]
 - Ruby/sidekiq/Ansible/GitHub/Jenkins/Scrum/JIRA/Confluence
@@ -87,15 +84,15 @@ Go/OpenAPI/gRPC/PostgreSQL/Docker/Nginx/AWS(ECS/Fargate/EC2/OpsWorks/Lambda/RDS/
 - API公開ドキュメントの修正
 - 運用業務
 
-### IP電話サービスのOpenStack導入に向けた検証(2018年、約9ヶ月)
+### 大規模IP電話サービスのOpenStack導入に向けた検証(2018年、約9ヶ月)
 [プロジェクト概要]
-- 全国規模の大量トラフィックを前提としたIP電話サービスを、OpenStack上で運用するための商用想定検証環境のインフラ設計と構築。
+- 全国規模の大規模IP電話サービスをOpenStack上で構築・運用するために、商用環境を想定した技術検証。
 
 [技術スタック]
 - OpenStack/KVM/Ansible/SR-IOV/CPUピニング/HugePage/NUMA
 
 [チーム規模、役割]
-- 5名強程度のチームで、PM補佐兼インフラエンジニアとして働いておりました。
+- 10名程度のチームで、PM補佐兼インフラエンジニアとして働いておりました。
 
 [担当業務]
 - 複数のOpenStack環境構築と構築手順書の作成
@@ -103,13 +100,12 @@ Go/OpenAPI/gRPC/PostgreSQL/Docker/Nginx/AWS(ECS/Fargate/EC2/OpsWorks/Lambda/RDS/
 - Ansibleを用いたOpenStack環境の正常性確認の自動化
 - OpenStack環境上の仮想リソースの作成
 - 協力会社と社内メンバへの作業指示および管理
-- 2度の落雷トラブル発生時の復旧作業と問題切り分けを指揮し、他社のアプリベンダや物理インフラ担当ベンダなどとコミュニケーションをとりながら、短期間（1-3営業日)で復旧。
+- 2度の落雷トラブル発生時の復旧作業と問題切り分けを指揮し、他社のアプリベンダや物理インフラ担当ベンダなどとコミュニケーションをとりながら、短期間で復旧。
 - 自身の英語力を活かしてアプリベンダの海外エンジニアと直接コミュニケーションを取ることで効率的に作業を進めた。
 
 ### 中国での無人受付システムの開発(2017年、約3ヶ月)
 [プロジェクト概要]
-- 受付業務をネイティブアプリとビーコンにより無人化するWebサービスの開発。
-- 中国でスクラム開発を経験する。
+- 受付業務をネイティブアプリとビーコンにより無人化するWebサービスを中国に常駐して開発する。
 
 [技術スタック]
 - Python/Flask/HTML/CSS/JavaScript/Android/Nginx/AWS/Jenkins/GitLab/Scrum/JIRA/Confluence/mattermost
@@ -118,9 +114,9 @@ Go/OpenAPI/gRPC/PostgreSQL/Docker/Nginx/AWS(ECS/Fargate/EC2/OpsWorks/Lambda/RDS/
 - 10名弱程度(日本人、中国人混在)のチームで、テックリード兼バックエンジニアとして働いておりました。
 
 [担当業務]
-- インフラ環境構築(AWS)
-- 開発メンバ全員のローカル開発環境構築
-- ディレクトリ構成やファイルのひな型作成
+- AWS環境構築
+- 開発メンバのローカル開発環境構築
+- ディレクトリテンプレートの作成
 - 設計(IF/DB/画面遷移)
 - 実装(UT含む)
 - ソースコードレビュー
@@ -161,23 +157,23 @@ Go/OpenAPI/gRPC/PostgreSQL/Docker/Nginx/AWS(ECS/Fargate/EC2/OpsWorks/Lambda/RDS/
 - 1名で、OSS調査員として働いておりました。
 
 [担当業務]
-- Dockerインストール、基本コマンド、Dockerfile、docker-composeなどの調査および動作検証を実施し、社内勉強会開催。
-- kolla-ansible(OpenStackの各コンポーネントをコンテナとして扱うことでOpenStackのバージョン更新作業を簡易化するコンポーネント)の調査および動作検証し、社内勉強会開催。
-- 3種類のOSSのMANO(OpenBaton/ Tacker/Open Source MANO)の各公式ドキュメント（英語）からドキュメント充実度、機能充実度、コミュニティ活発度などを調査比較し、OpenBatonを調査対象として決定。
-- 検証用物理サーバ2台のOSインストールとネットワーク設定
+- Dockerの調査および動作検証を実施し、社内勉強会を開催。
+- kolla-ansible(OpenStackの各コンポーネントをコンテナとして扱うことでOpenStackのバージョン更新作業を簡易化するコンポーネント)の調査および動作検証を実施し、社内勉強会を開催。
+- OSSのMANO(OpenBaton/ Tacker/Open Source MANO)の各公式ドキュメントからドキュメント充実度・機能充実度・コミュニティ活発度などを調査比較。OpenBatonを調査対象として決定。
+- 検証用物理サーバのOSインストールとネットワーク設定
 - VagrantとVirtualboxによるOpenStackのcontrollerとcomputeノード用の仮想インスタンス生成の自動化。
 - OpenStack環境構築を自動化するAnsibleのplaybook実装。
 - OpenBatonのInstantiation/Termination機能を動作検証。
 - 社内セキュリティ環境やバグに対応したOpenBatonの改良を実装。
-- OpenBatonのログ処理のバグに関するpull requestがマージされた。（OSSコミュニティへの貢献）
-- OpenBatonのインストールドキュメント不備に関するIssue作成。(OSSコミュニティへの貢献)
+- OpenBatonのログ処理のバグfixに関するOSSへの貢献。
+- OpenBatonのインストールドキュメント不備に関するOSSへの貢献。
 
 ### NFV検証用システムの開発(2016年、約6ヶ月)
 [プロジェクト概要]
-- NFV検証に関する「試験用ワンコールシステムのIFアダプタの開発」および「管理システムの開発」
+- NFV検証に関する「試験用ワンコールシステムのIFアダプタの開発」および「NFV管理システムの開発」
 
 [技術スタック]
-- Python/Flask/Java/HTML/CSS/JavaScript/MySQL/Nginx/Jenkins/NFV/GitBucket/JIRA/Confluence
+- Python/Flask/Java/HTML/CSS/JavaScript/MySQL/Nginx/Jenkins/NFV/GitBucket/JIRA/Confluence/mattermost
 
 [チーム規模、役割]
 - 5名程度のチームで、バックエンドエンジニアとして働いておりました。
@@ -189,14 +185,15 @@ Go/OpenAPI/gRPC/PostgreSQL/Docker/Nginx/AWS(ECS/Fargate/EC2/OpsWorks/Lambda/RDS/
 - 外部システム（テストコールシステム、MANO）に関する社外への仕様問い合わせ
 - 設計(シーケンス図/REST-API/RDB/画面/メッセージ仕様)
 - 実装(UT含む)
-- 試験実施
+- 試験
+- リリース
 
 ### NFV検証環境の構築(2016年、約3ヶ月)
 [プロジェクト概要]
-- 国内大手通信企業様の電話サービスに関するNFVシナリオ（オートヒーリング、スケールアウト、システムアップデート）検証用の環境構築および検証を実施し、提案する。
+- 大規模電話サービス向けのNFVシナリオ（オートヒーリング、スケールアウト、システムアップデート）検証用の環境構築および検証を実施し、提案する。
 
 [技術スタック]
-- NFV/OpenStack/KVM/Ubuntu/GitBucket/Redmine/limechat
+- NFV/OpenStack/KVM/Ubuntu/GitBucket/Redmine/mattermost
 
 [チーム規模、役割]
 - 10名弱程度のチームで、インフラエンジニアとして働いておりました。
@@ -205,10 +202,10 @@ Go/OpenAPI/gRPC/PostgreSQL/Docker/Nginx/AWS(ECS/Fargate/EC2/OpsWorks/Lambda/RDS/
 - 検証環境サーバ約10台のLinuxOSのインストール
 - Teratermマクロの作成
 - ローカルリポジトリ構築
-- OpenStack環境構築
-- OpenStack仮想リソース作成削除のシェルスクリプト作成
+- OpenStack環境構築（手動）
+- OpenStack仮想リソース作成・削除のシェルスクリプト作成
 - GitBucketサーバの構築
-- チャットサーバ(limechat)の構築
+- チャットサーバ(mattermost)の構築
 - GitBucketによるスクリプトとマクロのバージョン管理
 
 ### エンタープライズ企業向け営業活動(2016年、約3ヶ月)
@@ -249,7 +246,7 @@ https://www.researchgate.net/publication/268444818_Text_Classification_Using_Com
 ### 家事管理ソフトウェア
 Go/OpenAPI(Swagger)/Nginx/PostgreSQL/Docker/CircleCI/Gitなど
 
-家事管理をするソフトウェアです。現状はバックエンドのみの実装となっています。UT含めそれなりにしっかりと設計と実装がされております。
+家事管理をするソフトウェアです。現状はバックエンドのみの実装となっています。UTも実装しております。
 
 開発規模：
 （HTMLはcoverage.htmlのものです。）
@@ -283,7 +280,7 @@ https://github.com/gold-kou/go-housework
 ### ジャニーズ顔判定ができるWebサービス
 Python/Flask/HTML/CSS(BootStrap)/JavaScript/Nginx/AWS(EC2/Route53など)/GCP(GCS/GCV)/OpenCV/scikit-learn
 
-ログインや登録など一切不要で、顔写真をアップロードするだけで、その顔がジャニーズ顔かどうかを判定できるWebサービスです。継続的にご利用いただいておりましたが、現在はインフラコストの都合上停止中です。ニュースサイトGigazineでも特集されました。
+ユーザ登録一切不要で、顔写真をアップロードするだけで、その顔がジャニーズ顔かどうかを判定できるWebサービスです。継続的にご利用いただいておりましたが、現在はインフラコストの都合上停止中です。ニュースサイトGigazineでも特集されました。
 
 紹介記事：
 [AIを使って自分の顔がジャニーズ系かどうかを判定するWebサービスを作ってみた](https://qiita.com/gold-kou/items/e1a96657a63b043c4564)
@@ -337,7 +334,7 @@ Scrum/ウォーターフォール
 - 日本語
   - ネイティブ
 - 英語
-  - 流暢ではない（今後の学習意欲高いです）
+  - 流暢ではない（今後の学習意欲高いです、継続的に勉強しています）
   - TOEIC: 790点
 
 ## 資格
@@ -351,10 +348,10 @@ Scrum/ウォーターフォール
 
 学習例：
 
-- 累計30冊以上の技術書籍の学習
+- 卒業後、累計30冊以上の技術書籍の学習
 - 「家事管理ソフトウェア」、「ジャニーズ顔判定できるWebサービス」、「スマートスピーカーを使った備忘通知アプリ」の3つの自作ソフトウェア開発
 - Qiitaへの記事投稿
-- 毎日20分の英語リスニング・シャドーイング
+- 毎日20分以上の英語リスニング・シャドーイング
 - 英単語帳学習
 
 勉強熱心であることは、変革の激しいIT業界において、常に成長し、活躍し続けられるために必要な能力だと考えています。
@@ -372,5 +369,4 @@ https://gigazine.net/news/20180808-johnnys-face/
 ## 各種リンク
 - [Qiita](https://qiita.com/gold-kou)
 - [stack overflow](https://stackoverflow.com/users/9048198/gold-kou)
-- [Twitter](https://twitter.com/gold_kou)
 - [LinkedIn](https://www.linkedin.com/in/koki-hatano-258a42166/)
