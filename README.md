@@ -80,7 +80,7 @@
 
 [技術スタック]
 
-- Ruby/sidekiq/Ansible/GitHub/Jenkins/Scrum/JIRA/Confluence
+- Ruby/sidekiq/Redis/Ansible/GitHub/Jenkins/Scrum/JIRA/Confluence
 
 [チーム規模、役割]
 
