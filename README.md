@@ -12,11 +12,11 @@
 - アパレル商品の生産発注・生産工程・出荷などを管理するシステムの開発
 - アパレル商品のマスタ情報を管理するシステムの開発
 - 社内システム間のデータ連携システムの開発
-- AlibabaとAWSの通信性能検証
+- Alibaba CloudとAWSの通信性能検証
 
 [技術スタック]
 
-- Go/OpenAPI/gRPC/PostgreSQL/Docker/Nginx/AWS(ECS/Fargate/EC2/OpsWorks/Lambda/RDS/DynamoDB/S3/CloudFormationなど)/Digdag/Datadog/CircleCI/GitHub/JIRA/Confluence/Slack
+- Go/OpenAPI/gRPC/PostgreSQL/Docker/Nginx/AWS(ECS/Fargate/EC2/OpsWorks/Lambda/RDS/DynamoDB/S3など)/Digdag/Datadog/CircleCI/GitHub/JIRA/Confluence/Slack
 
 [チーム規模、役割]
 
@@ -26,7 +26,7 @@
 
 - 開発作業
   - インフラ構築
-    - インフラアーキテクチャ選定
+    - インフラアーキテクチャ設計
     - CloudFormationの実装
   - 設計
     - 機能要件書作成
@@ -41,30 +41,25 @@
   - 試験
     - 結合試験の実施
     - 総合試験項目書の作成
-  - リリース
-- 各種開発管理業務（タスク、ドキュメント、開発ルール、業務委託者など）  
+  - リリース  
 - 開発補助業務
+  - 開発ルール策定
+  - ドキュメント整備
+  - 業務委託者管理
   - リファクタリング
   - 技術選定(言語、アーキテクチャ、外部ライブラリなど) 
   - ディレクトリテンプレート作成
-  - 事前技術調査
-  - AWSとAlibabaの性能比較  
-  - 新規ソリューションの導入
-    - gRPCの導入
-    - スクラム導入
-      - 勉強会開催
-      - ルール整備
-      - イベント用ページの整備
-      - 妨害BLの管理
+  - 技術調査
+  - 勉強会開催
 
 ### パブリッククラウドサービスの開発(2018、約3ヶ月)
 [プロジェクト概要]
 
-- パブリッククラウドサービスのベアメタルサービスの追加開発および運用。
+- パブリッククラウドサービスの追加開発および運用。
 
 [技術スタック]
 
-- Ruby/sidekiq/Redis/Ansible/GitHub/Jenkins/Scrum/JIRA/Confluence
+- Ruby/sidekiq/Redis/Ansible/GitHub/Jenkins/Scrum/JIRA/Confluence/Slack
 
 [チーム規模、役割]
 
@@ -72,7 +67,7 @@
 
 [担当業務]
 
-- SSD寿命情報の定期取得とアラーム発砲機能の開発およびUT実装
+- SSD寿命情報に関するアラート発砲機能の開発およびUT実装
 - Ansibleのplaybook修正
 - API公開ドキュメントの修正
 - 運用業務
@@ -80,7 +75,7 @@
 ### 大規模IP電話サービスのOpenStack導入に向けた検証(2018年、約9ヶ月)
 [プロジェクト概要]
 
-- 全国規模の大規模IP電話サービスをOpenStack上で構築・運用するために、商用環境を想定した技術検証。
+- 全国規模の大規模IP電話サービスをOpenStack上で運用するための技術検証
 
 [技術スタック]
 
@@ -88,26 +83,27 @@
 
 [チーム規模、役割]
 
-- 10名程度のチームで、PM補佐兼インフラエンジニアとして働いておりました。
+- 10名程度のチームで、インフラエンジニアとして働いておりました。
 
 [担当業務]
 
-- 複数のOpenStack環境構築と構築手順書の作成
+- OpenStack環境構築と構築手順書の作成
 - SR-IOV、CPUピニング、HugePage、NUMAなどを用いたインフラの高速化チューニング設定
 - Ansibleを用いたOpenStack環境の正常性確認の自動化
 - OpenStack環境上の仮想リソースの作成
-- 協力会社と社内メンバへの作業指示および管理
+- メンバへの作業指示および管理
 - 2度の落雷トラブル発生時の復旧作業と問題切り分けを指揮し、他社のアプリベンダや物理インフラ担当ベンダなどとコミュニケーションをとりながら、短期間で復旧。
 - 自身の英語力を活かしてアプリベンダの海外エンジニアと直接コミュニケーションを取ることで効率的に作業を進めた。
 
 ### 中国での無人受付システムの開発(2017年、約3ヶ月)
 [プロジェクト概要]
 
-- 受付業務をネイティブアプリとビーコンにより無人化するWebサービスを中国に常駐して開発する。
+- 受付業務をスマートフォンとビーコンにより無人化するWebサービスの開発。
+- 中国に駐在して開発しました。
 
 [技術スタック]
 
-- Python/Flask/HTML/CSS/JavaScript/Android/Nginx/AWS/Jenkins/GitLab/Scrum/JIRA/Confluence/mattermost
+- Python/Flask/HTML/CSS/JavaScript/Java(Android)/Nginx/AWS/Jenkins/GitLab/Scrum/JIRA/Confluence/mattermost
 
 [チーム規模、役割]
 
