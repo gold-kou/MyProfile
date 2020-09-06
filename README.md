@@ -1,15 +1,64 @@
-# 職務経歴書
-私の職務経歴や技術スタック、ポートフォリオ、長所などをまとめたページになります。
+# はじめに
+私の技術スタック、職務経歴、ポートフォリオ、長所などをまとめたページになります。
+
+## テクニカルスキル
+### プログラミング言語
+Go/Java(JavaEE)/Python(Flask)/Ruby/HTML/CSS/JavaScript
+
+### IF
+OpenAPI(Swagger)/gRPC
+
+### DB
+PostgreSQL/MySQL/sqlite/Redis/DynamoDB
+
+### Public Cloud
+AWS(VPC/Route53/ELB/IAM/EC2/ECS/Fargate/Lambda/API Gateway/EBS/EFS/S3/RDS/DynamoDB/ElastiCache/SQS/CloudWatch/Auto Scaling)/GCP
+
+### IaC
+CloudFormation/Ansible
+
+### サーバ仮想化・自動化
+Docker/NFV/OpenStack/KVM/Vagrant/Virtualbox/Kickstart
+
+### Workflow
+Digdag
+
+### ML
+NLP/scikit-learn
+
+### Document
+JIRA/Confluence/Markdown
+
+### 開発手法
+Scrum/ウォーターフォール
 
 ## 職務経歴概要
 - 3年以上のシステム開発の業務経験があります。設計、実装、テスト、リリースなど一連の開発工程に加えて、アーキテクチャ選定や技術選定、スクラム導入などの経験もあります。
 - 約2年間のプライベートクラウド、サーバ仮想化、自動化関連のインフラ業務経験があります。ホストOSのインストールから始まり、OpenStack環境の構築、仮想リソース作成、Ansibleを使った自動化などを実施しました。
 
 ## 職務経歴詳細
-### アパラル生産のデジタルトランスフォーメーション(2019-現在、約1年4ヶ月)
+### ZOZOTOWNのマイクロサービス化(2020-現在)
 [プロジェクト概要]
 
-- アパレル商品の生産発注・生産工程・出荷などを管理するシステムの開発
+- API Gatewayの開発
+- ID基盤の開発
+
+[技術スタック]
+
+- Go/OpenAPI/MySQL/Docker/Kubernetes(EKS)/Datadog/Sentry/GitHub Actions/GitHub/JIRA/Confluence/Slack
+
+[チーム規模、役割]
+
+- 4人のチームでバックエンドエンジニアとして働いております。
+
+[担当業務]
+
+coming soon
+
+### アパラル生産のデジタルトランスフォーメーション(2019-2020、1年6ヶ月)
+[プロジェクト概要]
+
+- 工場におけるアパレル商品の生産発注・生産工程・出荷などを管理するシステムの開発
 - アパレル商品のマスタ情報を管理するシステムの開発
 - 社内システム間のデータ連携システムの開発
 - Alibaba CloudとAWSの通信性能検証
@@ -20,7 +69,7 @@
 
 [チーム規模、役割]
 
-- 10人弱程度のチームでテックリード兼バックエンドエンジニア兼スラクムマスターとして働いております。
+- 10人弱程度のチームでテックリード兼バックエンドエンジニア兼スラクムマスターとして働いておりました。
 
 [担当業務]
 
@@ -319,49 +368,6 @@ Python/Node.js/Google Home
 GitHub：
 https://github.com/gold-kou/never-forget-umbrella
 
-## テクニカルスキル
-### プログラミング言語
-Go/Java(JavaEE)/Python(Flask)/Ruby/HTML/CSS/JavaScript
-
-### API
-OpenAPI(Swagger)/gRPC
-
-### DB
-PostgreSQL/MySQL/sqlite/Redis/DynamoDB
-
-### Public Cloud
-AWS(VPC/Route53/ELB/IAM/EC2/ECS/Fargate/Lambda/API Gateway/EBS/EFS/S3/RDS/DynamoDB/ElastiCache/SQS/CloudWatch/Auto Scaling)/GCP
-
-### IaC
-CloudFormation/Ansible
-
-### サーバ仮想化・自動化
-Docker/NFV/OpenStack/KVM/Vagrant/Virtualbox/Kickstart
-
-### Workflow
-Digdag
-
-### ML
-NLP/scikit-learn
-
-### Document
-JIRA/Confluence/Markdown
-
-### 開発手法
-Scrum/ウォーターフォール
-
-## 言語
-- 日本語
-  - ネイティブ
-- 英語
-  - 流暢ではない（今後の学習意欲高いです、継続的に勉強しています）
-  - TOEIC: 790点
-
-## 資格
-- 認定スクラムマスター
-- 応用情報技術者
-- TOEIC790
-
 ## 長所
 私の最大の長所は、勉強熱心であることです。
 自ら業務やキャリアに役立つ技術トピックを見つけ、学習計画を立てて、日々勉強しています。
@@ -386,6 +392,18 @@ https://gigazine.net/news/20180808-johnnys-face/
 これまでにGoやPython、機械学習、Dockerなどの約50記事を投稿し、10000以上のContributionsを獲得しております。
 [Qiita](https://qiita.com/gold-kou)
 
+## 資格
+- 認定スクラムマスター
+- 応用情報技術者
+- TOEIC790
+
+## コミュニケーション言語
+- 日本語
+  - ネイティブ
+- 英語
+  - 流暢ではないがコミュニケーションは可能です（今後の学習意欲も高いです、継続的に勉強しています。）
+  - TOEIC: 790点
+  
 ## 各種リンク
 
 - [Qiita](https://qiita.com/gold-kou)
