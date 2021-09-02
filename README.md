@@ -3,11 +3,14 @@
 
 # テクニカルスキル
 Go/Java/Python/Flask/HTML/CSS/JavaScript
+
 PostgreSQL/MySQL/sqlite/Redis/DynamoDB
+
 AWS/CloudFormation/Terraform/Ansible/Vagrant/Docker/OpenStack/KVM
 
 # 職務経歴
 上流〜下流工程の一連のシステム開発、サーバ仮想化環境のインフラ構築、技術選定、スクラム導入などの経験があります。
+
 特に、バックエンドのAPI開発に強みがあります。
 
 ## ZOZOTOWNのマイクロサービス化に関するAPI基盤の開発(2020-現在)
