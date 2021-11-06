@@ -15,6 +15,7 @@ AWS/CloudFormation/Terraform/Ansible/Vagrant/Docker/OpenStack/KVM
 
 ## ZOZOTOWNのマイクロサービス化(2020-現在)
 [プロジェクト概要]
+
 API Gateway、認証基盤の開発や運用。
 
 [技術スタック]
