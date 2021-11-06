@@ -13,14 +13,9 @@ AWS/CloudFormation/Terraform/Ansible/Vagrant/Docker/OpenStack/KVM
 
 特に、バックエンドのAPI開発に強みがあります。
 
-## ZOZOTOWNのマイクロサービス化に関するAPI基盤の開発(2020-現在)
+## ZOZOTOWNのマイクロサービス化(2020-現在)
 [プロジェクト概要]
-
-- API Gatewayの開発
-  - 1日に約5億のAPIリクエストを捌く、ZOZOTOWNの玄関口です。
-  - https://techblog.zozo.com/entry/zozotown-api-gateway-intro
-  - https://techblog.zozo.com/entry/zozotown-api-gateway-availability
-- ID基盤の開発
+API Gateway、認証基盤の開発や運用。
 
 [技術スタック]
 
@@ -32,9 +27,20 @@ AWS/CloudFormation/Terraform/Ansible/Vagrant/Docker/OpenStack/KVM
 
 [担当業務]
 
-- API GatewayやID基盤の機能追加おより削減
+- API Gatewayの開発
+  - リトライ機能
+  - configバリデーション機能
+  - スロットリング機能
+  - タイムアウト機能
+  - リファクタリングなど
+- ID基盤の開発
+  - メール本人確認機能
+  - 削除バッチのベンチマーク
+  - リファクタリングなど
 - 運用、監視業務
 - テックブログ執筆
+  - https://techblog.zozo.com/entry/zozotown-api-gateway-intro
+  - https://techblog.zozo.com/entry/zozotown-api-gateway-availability
 - 採用
 
 ## アパラル商品の生産管理システムの開発(2019-2020、1年6ヶ月)
