@@ -7,13 +7,13 @@
 - AWS/CloudFormation/Terraform/Ansible/Vagrant/Docker/OpenStack/KVM
 
 # 職務経歴
-要件定義・設計・実装・テスト・リリースなどの一連のシステム開発と運用、サーバ仮想化環境のインフラ構築、技術選定、スクラム導入などの経験があります。特に、バックエンドのAPI開発が得意です。
+要件定義・設計・実装・テスト・リリース・レビューなどの一連のシステム開発と運用、サーバ仮想化環境のインフラ構築、技術選定、スクラム導入などの経験があります。複数の部署が関係する20名程度のプロジェクトをリードした経験もあります。特に、バックエンドのAPI開発が得意です。
 
 ## 株式会社ZOZO
 ### ZOZOTOWNのマイクロサービス化(2020-現在)
 [プロジェクト概要]
 
-API Gateway、ID基盤、会員基盤の開発と運用。
+API Gatewayやマイクロサービスの開発と運用。
 
 [技術スタック]
 
@@ -158,7 +158,7 @@ API Gateway、ID基盤、会員基盤の開発と運用。
 ### サーバ仮想化・自動化に関する技術調査およびPoC開発(2016-2017年、約1年6ヶ月)
 [プロジェクト概要]
 
-- 大手通信企業様向けにサーバ仮想化および自動化の調査を実施し、PoC開発および技術提案をする。
+- 技術調査やPoC開発を通じて大手通信企業様のインフラコストを省力化する提案をする
 
 [技術スタック]
 
@@ -177,32 +177,24 @@ API Gateway、ID基盤、会員基盤の開発と運用。
   - ローカルリポジトリ構築
   - OpenStack環境構築（手動）
   - OpenStack仮想リソース作成・削除のシェルスクリプト作成
-  - GitBucketサーバの構築
-  - チャットサーバ(mattermost)の構築
-  - GitBucketによるスクリプトとマクロのバージョン管理
 - 試験用ワンコールシステムのIFアダプタ、管理システムの開発
-  - ローカル開発環境構築(Python、Javaなど)
-  - IT環境構築
-  - CI環境構築
+  - ローカル、テスト、CIに関する環境構築
   - 外部システム（テストコールシステム、MANO）に関する社外への仕様問い合わせ
   - 設計(シーケンス図/REST-API/RDB/画面/メッセージ仕様)
   - 実装(UT含む)
   - 試験
   - リリース
-- 以下の契約前の技術調査と提案と見積もりの作成
-  - KickStartに関する技術調査および動作検証
-  - AnsibleによるゲストOSインストールと必要パッケージインストール作業の自動化に関する技術調査および動作検証
-  - ZabbixによるホストOS側のIPMIやプロセスなどの監視に関する技術調査および動作検証
-- Dockerの調査および動作検証を実施し、社内勉強会を開催。
-- kolla-ansible(OpenStackの各コンポーネントをコンテナとして扱うことでOpenStackのバージョン更新作業を簡易化するコンポーネント)の調査および動作検証を実施し、社内勉強会を開催。
-- OSSのMANO(OpenBaton/ Tacker/Open Source MANO)の各公式ドキュメントからドキュメント充実度・機能充実度・コミュニティ活発度などを調査比較。OpenBatonを調査対象として決定。
-- 検証用物理サーバのOSインストールとネットワーク設定
-- VagrantとVirtualboxによるOpenStackのcontrollerとcomputeノード用の仮想インスタンス生成の自動化。
-- OpenStack環境構築を自動化するAnsibleのplaybook実装。
-- OpenBatonのInstantiation/Termination機能を動作検証。
-- 社内セキュリティ環境やバグに対応したOpenBatonの改良を実装。
-- OpenBatonのログ処理のバグfixに関するOSSへの貢献。
-- OpenBatonのインストールドキュメント不備に関するOSSへの貢献。
+- 技術調査
+　　- KickStart、Ansible、Zabbixによる構成自動化と監視に関する技術調査と提案
+　　- OSSのMANO(OpenBaton/Tacker/Open Source MANO)の調査
+  　　- OpenBatonのInstantiation/Termination機能を動作検証。
+  　　- 社内セキュリティ環境やバグに対応したOpenBatonの改良を実装。
+  　　- OpenBatonのログ処理のバグfixに関するOSSへの貢献。
+  　　- OpenBatonのインストールドキュメント不備に関するOSSへの貢献。
+　　- 検証用物理サーバのOSインストールとネットワーク設定
+　　- Dockerの調査と社内勉強会の開催
+　　- VagrantとVirtualboxによるOpenStackのcontrollerとcomputeノード用の仮想インスタンス生成の自動化
+　　- OpenStack環境構築を自動化するAnsibleのplaybook実装
 
 ### 4次元可視化システムのプロトタイプ開発および提案(2015年、約6ヶ月)
 [プロジェクト概要]
