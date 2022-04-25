@@ -185,16 +185,16 @@ API Gatewayやマイクロサービスの開発と運用。
   - 試験
   - リリース
 - 技術調査
-　　- KickStart、Ansible、Zabbixによる構成自動化と監視に関する技術調査と提案
-　　- OSSのMANO(OpenBaton/Tacker/Open Source MANO)の調査
-  　　- OpenBatonのInstantiation/Termination機能を動作検証。
-  　　- 社内セキュリティ環境やバグに対応したOpenBatonの改良を実装。
-  　　- OpenBatonのログ処理のバグfixに関するOSSへの貢献。
-  　　- OpenBatonのインストールドキュメント不備に関するOSSへの貢献。
-　　- 検証用物理サーバのOSインストールとネットワーク設定
-　　- Dockerの調査と社内勉強会の開催
-　　- VagrantとVirtualboxによるOpenStackのcontrollerとcomputeノード用の仮想インスタンス生成の自動化
-　　- OpenStack環境構築を自動化するAnsibleのplaybook実装
+  - KickStart、Ansible、Zabbixによる構成自動化と監視に関する技術調査と提案
+  - OSSのMANO(OpenBaton/Tacker/Open Source MANO)の調査
+    - OpenBatonのInstantiation/Termination機能を動作検証。
+    - 社内セキュリティ環境やバグに対応したOpenBatonの改良を実装。
+    - OpenBatonのログ処理のバグfixに関するOSSへの貢献。
+    - OpenBatonのインストールドキュメント不備に関するOSSへの貢献。
+　　 - 検証用物理サーバのOSインストールとネットワーク設定
+  - Dockerの調査と社内勉強会の開催
+  - VagrantとVirtualboxによるOpenStackのcontrollerとcomputeノード用の仮想インスタンス生成の自動化
+  - OpenStack環境構築を自動化するAnsibleのplaybook実装
 
 ### 4次元可視化システムのプロトタイプ開発および提案(2015年、約6ヶ月)
 [プロジェクト概要]
