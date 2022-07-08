@@ -17,7 +17,7 @@ API Gatewayやマイクロサービスの開発と運用。
 
 [技術スタック]
 
-- Go/OpenAPI/MySQL/Docker/Kubernetes(EKS)/Datadog/Sentry/GitHub Actions/GitHub
+- Go/VBScript/OpenAPI/MySQL/Docker/Kubernetes(EKS)/Datadog/Sentry/GitHub Actions/GitHub
 
 [チーム規模、役割]
 
@@ -39,6 +39,9 @@ API Gatewayやマイクロサービスの開発と運用。
   - リファクタリング
   - etc
 - 会員基盤の開発
+  - データ移行
+- レガシーシステムの改修
+  - マイクロサービスのAPI実行
 - レビュー
 - 運用、監視業務
 - テックブログ執筆
