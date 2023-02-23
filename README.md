@@ -8,7 +8,7 @@
 ### ZOZOTOWNのマイクロサービス化(2020-現在)
 [プロジェクト概要]
 
-API Gatewayやマイクロサービスの開発と運用およびレガシーアプリケーションの改修を通じて、ZOZOTOWNのシステムリプレスをする。
+API Gatewayやマイクロサービスの開発と運用およびレガシーシステムの改修を通じて、ZOZOTOWNのシステムリプレスをする。
 
 [技術スタック]
 
@@ -21,10 +21,11 @@ API Gatewayやマイクロサービスの開発と運用およびレガシーア
 [主な担当業務]
 
 - API Gatewayの開発
-  - リトライ機能
+  - ターゲットグループを跨いだリトライ機能
   - configバリデーション機能
   - スロットリング機能
-  - タイムアウト機能
+  - タイムアウト機能（Exponential Backoff and Jitter）
+  - 独自ヘッダー追加に伴うヘッダー伝搬とアクセスログの改修
   - リファクタリング
 - ID基盤の開発
   - メール本人確認機能
@@ -33,16 +34,19 @@ API Gatewayやマイクロサービスの開発と運用およびレガシーア
   - リファクタリング
 - 会員基盤の開発
   - 会員基本情報のCRUD機能
+  - 年齢認証機能
   - データ移行ツール
 - レガシーシステムの改修
   - マイクロサービスのAPI実行
 - レビュー
 - 運用、監視業務
+- Goバージョンアップ
 - テックブログ執筆
   - https://techblog.zozo.com/entry/zozotown-api-gateway-intro
   - https://techblog.zozo.com/entry/zozotown-api-gateway-availability
   - https://techblog.zozo.com/entry/zozotown-api-gateway-throttling
 - 社内勉強会発表
+- スクラム導入
 - 採用活動
 
 ### 生産管理システムの開発(2019-2020、約1年6ヶ月)
