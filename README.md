@@ -5,18 +5,37 @@
 要件定義・設計・実装・テスト・リリース・レビューなどの一連のシステム開発と運用、サーバ仮想化環境のインフラ構築、技術選定、スクラム導入などの経験があります。複数の部署が関係する20名程度のプロジェクトをリードした経験もあります。特に、バックエンドのAPI開発が得意です。
 
 ## 株式会社ZOZO
-### ZOZOTOWNのマイクロサービス化(2020-現在)
+### ZOZOTOWNのPlatform基盤構築(2023-)
+[プロジェクト概要]
+ZOZOTOWNのマイクロサービスやPlatformの基盤構築。
+
+[技術スタック]
+
+- Docker/Kubernetes(EKS)/Istio/Flagger/AWS/CloudFormation/Terraform/Datadog/Sentry/Pager Duty/GitHub Actions/GitHub/Gatling/Vegeta
+
+[チーム規模、役割]
+
+- 5人程度のチームでSREとして働いています。
+
+[主な担当業務]
+
+- 負荷試験
+- 障害試験
+- VPCの空きIP数監視（CustomMonitor, Alert, Datadog Dashboard）
+- GitHub Actionsのリファクタリング
+
+### ZOZOTOWNのマイクロサービス開発(2020-2023)
 [プロジェクト概要]
 
 API Gatewayやマイクロサービスの開発と運用およびレガシーシステムの改修を通じて、ZOZOTOWNのシステムリプレスをする。
 
 [技術スタック]
 
-- Go/VBScript/OpenAPI/MySQL/Docker/Kubernetes(EKS)/Datadog/Sentry/GitHub Actions/GitHub
+- Go/VBScript/OpenAPI/MySQL/Docker/Kubernetes(EKS)/Datadog/Sentry/Pager Duty/GitHub Actions/GitHub
 
 [チーム規模、役割]
 
-- 5人程度のチームでバックエンドエンジニアとして働いております。
+- 5人程度のチームでバックエンドエンジニアとして働きました。
 
 [主な担当業務]
 
