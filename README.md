@@ -19,6 +19,8 @@ ZOZOTOWNのマイクロサービスやPlatformの基盤構築。
 
 [主な担当業務]
 
+- マイクロサービスへのIstioやFlaggerの導入
+- 監視設定（Datadog Monitor、CloudWatch Alarm、PagerDuty）の追加
 - 負荷試験
 - 障害試験
 - VPCの空きIP数監視（CustomMonitor, Alert, Datadog Dashboard）
@@ -278,6 +280,7 @@ https://github.com/gold-kou/never-forget-umbrella
 
 # 資格
 - 認定スクラムマスター
+- CKAD
 - 応用情報技術者
 - TOEIC790
   
