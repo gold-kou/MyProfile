@@ -11,7 +11,7 @@ ZOZOTOWNのマイクロサービスやPlatformの基盤構築。
 
 [技術スタック]
 
-- Docker/Kubernetes(EKS)/Istio/Flagger/AWS/CloudFormation/Terraform/Datadog/Sentry/Pager Duty/GitHub Actions/GitHub/Gatling/Vegeta
+- Docker/Kubernetes(EKS)/Kustimization/Istio/Flagger/Flux/AWS/CloudFormation/Terraform/Datadog/Sentry/Pager Duty/GitHub Actions/GitHub/Gatling/Vegeta
 
 [チーム規模、役割]
 
@@ -19,17 +19,19 @@ ZOZOTOWNのマイクロサービスやPlatformの基盤構築。
 
 [主な担当業務]
 
-- マイクロサービスへのIstioやFlaggerの導入
-- 監視設定（Datadog Monitor、CloudWatch Alarm、PagerDuty）の追加
+- EKS Upgrade
+- contained移行
+- マイクロサービスへのIstio/Flaggerの導入
+- 監視設定（Datadog、CloudWatch Alarm、PagerDuty）の追加や修正
 - 負荷試験
 - 障害試験
-- VPCの空きIP数監視（CustomMonitor, Alert, Datadog Dashboard）
 - GitHub Actionsのリファクタリング
+- Gating Operator(OSS)の改修やメンテナンス
 
 ### ZOZOTOWNのマイクロサービス開発(2020-2023)
 [プロジェクト概要]
 
-API Gatewayやマイクロサービスの開発と運用およびレガシーシステムの改修を通じて、ZOZOTOWNのシステムリプレスをする。
+API Gatewayやマイクロサービスの開発と運用およびレガシーシステムの改修を通じて、ZOZOTOWNをシステムリプレスする。
 
 [技術スタック]
 
@@ -117,7 +119,7 @@ API Gatewayやマイクロサービスの開発と運用およびレガシーシ
 
 [主な担当業務]
 
-- SSD寿命に関するアラート発砲機能の開発
+- SSD寿命に関するアラート機能の開発
 - Ansibleのplaybook修正
 - 運用業務
 
@@ -173,7 +175,7 @@ API Gatewayやマイクロサービスの開発と運用およびレガシーシ
 ### サーバ仮想化・自動化に関する技術調査およびPoC開発(2016-2017年、約1年6ヶ月)
 [プロジェクト概要]
 
-技術調査やPoC開発を通じて大手通信企業様のインフラコストを省力化する提案をする。
+技術調査やPoC開発を通じて大手通信企業様のインフラコスト省力化の提案をする。
 
 [技術スタック]
 
@@ -187,14 +189,14 @@ API Gatewayやマイクロサービスの開発と運用およびレガシーシ
 [主な担当業務]
 
 - NFVシナリオ（オートヒーリング、スケールアウト、システムアップデート）用のインフラ構築
-  - 検証環境サーバ約10台のLinuxOSのインストール
+  - 検証環境サーバ群のLinuxOSのインストール
   - Teratermマクロの作成
-  - ローカルリポジトリ構築
+  - Gitローカルリポジトリ構築
   - OpenStack環境構築（手動）
   - OpenStack仮想リソース作成・削除のシェルスクリプト作成
-- 試験用ワンコールシステムのIFアダプタ、管理システムの開発
+- デモ用ワンコールシステムのAPIアダプタ、管理システムの開発
   - ローカル、テスト、CIに関する環境構築
-  - 外部システム（テストコールシステム、MANO）に関する社外への仕様問い合わせ
+  - 外部システム（テストコールシステム、MANO）に関する社外とのコミュニケーション
   - 設計(シーケンス図/REST-API/RDB/画面/メッセージ仕様)
   - 実装(UT含む)
   - 試験
@@ -227,7 +229,7 @@ API Gatewayやマイクロサービスの開発と運用およびレガシーシ
 
 # 学生時代の研究
 大学および大学院では自然言語処理と機械学習に関する研究をしておりました。
-「人間の大脳皮質の情報処理原理を用いたテキストのカテゴリー分類」というテーマで国際学会(クアラルンプール)に登壇して発表した経験があります。以下は論文のリンクになります。
+「人間の大脳皮質の情報処理原理を用いたテキストのカテゴリー分類」というテーマでクアラルンプールで開催された国際学会に登壇して発表しました。以下は論文のリンクになります。
 
 https://www.researchgate.net/publication/268444818_Text_Classification_Using_Computational_Model_of_the_Cerebral_Cortex
 
