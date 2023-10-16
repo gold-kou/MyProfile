@@ -11,7 +11,7 @@ ZOZOTOWNのマイクロサービスやPlatformの基盤構築。
 
 [技術スタック]
 
-- Docker/Kubernetes(EKS)/Kustimization/Istio/Flagger/Flux/AWS/CloudFormation/Terraform/Datadog/Sentry/Pager Duty/GitHub Actions/GitHub/Gatling/Vegeta
+- Docker/Kubernetes(EKS)/kustomization/Istio/Flagger/Flux/AWS/CloudFormation/Terraform/Datadog/Sentry/Pager Duty/GitHub Actions/GitHub/Gatling/Vegeta
 
 [チーム規模、役割]
 
