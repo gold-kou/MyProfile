@@ -19,16 +19,19 @@ ZOZOTOWNのマイクロサービスやPlatformの基盤構築。
 
 [主な担当業務]
 
-- EKS Upgrade
-- contained移行
-- Aurora Upgrade
 - マイクロサービスのk8sリソースの作成
 - マイクロサービスへのIstio/Flaggerの導入
 - 監視設定（Datadog、CloudWatch Alarm、PagerDuty）の追加や修正
 - 負荷試験
 - 障害試験
-- GitHub Actionsのリファクタリング
+- GitHub Actionsの設定
 - Gating Operator(OSS)の改修やメンテナンス
+- 運用業務
+  - EKS Upgrade
+  - contained移行
+  - Aurora Upgrade
+  - 認証システムの鍵ペア交換作業
+  - 深夜メンテナンスに伴うサイト停止業務
 
 ### ZOZOTOWNのマイクロサービス開発(2020-2023)
 [プロジェクト概要]
