@@ -11,7 +11,7 @@ ZOZOTOWNのマイクロサービスやPlatformの基盤構築。
 
 [技術スタック]
 
-- Docker/Kubernetes(EKS)/kustomization/Istio/Flagger/Flux/AWS/CloudFormation/Terraform/Datadog/Sentry/Pager Duty/GitHub Actions/GitHub/Gatling/Vegeta
+- Docker/Kubernetes(EKS)/Kustomization/Istio/Flagger/Flux/AWS/CloudFormation/Terraform/Datadog/Sentry/Pager Duty/GitHub Actions/GitHub/Gatling/Vegeta
 
 [チーム規模、役割]
 
@@ -21,6 +21,8 @@ ZOZOTOWNのマイクロサービスやPlatformの基盤構築。
 
 - EKS Upgrade
 - contained移行
+- Aurora Upgrade
+- マイクロサービスのk8sリソースの作成
 - マイクロサービスへのIstio/Flaggerの導入
 - 監視設定（Datadog、CloudWatch Alarm、PagerDuty）の追加や修正
 - 負荷試験
