@@ -19,16 +19,16 @@ ZOZOTOWNのマイクロサービスやPlatformの基盤構築。
 
 [主な担当業務]
 
-- マイクロサービスのk8sリソースの作成
-- マイクロサービスへのIstio/Flaggerの導入
-- 監視設定（Datadog、CloudWatch Alarm、PagerDuty）の追加や修正
+- Kubernetes/Istio/AWSを用いたマイクロサービスのインフラ構築と保守
+- Flaggerを用いたマイクロサービスのProgressive Delivery化
+- Datadog/PagerDuty/Sentryを用いた監視基盤の構築と保守
+- GitHub Actionsを用いたCI/CDの構築
+- [Gating Operator](https://github.com/st-tech/gatling-operator)の保守
 - 負荷試験
 - 障害試験
-- GitHub Actionsの設定
-- Gating Operator(OSS)の改修やメンテナンス
 - 運用業務
   - EKS Upgrade
-  - contained移行
+  - コンテナランタイムをDockershimからContainedへ移行
   - Aurora Upgrade
   - 認証システムの鍵ペア交換作業
   - 深夜メンテナンスに伴うサイト停止業務
