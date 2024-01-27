@@ -11,7 +11,7 @@ ZOZOTOWNのマイクロサービスやPlatformの基盤構築。
 
 [技術スタック]
 
-- Docker/Kubernetes(EKS)/Kustomization/Istio/Flagger/Flux/AWS/CloudFormation/Terraform/Datadog/Sentry/Pager Duty/GitHub Actions/GitHub/Gatling/Vegeta
+- Docker/Kubernetes(EKS)/Kustomization/Istio/Flagger/Flux/AWS/CloudFormation/Terraform/Datadog/Sentry/Pager Duty/GitHub Actions/GitHub/Gatling
 
 [チーム規模、役割]
 
@@ -22,7 +22,7 @@ ZOZOTOWNのマイクロサービスやPlatformの基盤構築。
 - Kubernetes/Istio/AWSを用いたマイクロサービスのインフラ構築と保守
 - Flaggerを用いたマイクロサービスのProgressive Delivery化
 - Datadog/PagerDuty/Sentryを用いた監視基盤の構築と保守
-- GitHub Actionsを用いたCI/CDの構築
+- GitHub ActionsやFluxを用いたCI/CDの構築
 - [Gating Operator](https://github.com/st-tech/gatling-operator)の保守
 - 負荷試験
 - 障害試験
@@ -32,6 +32,8 @@ ZOZOTOWNのマイクロサービスやPlatformの基盤構築。
   - Aurora Upgrade
   - 認証システムの鍵ペア交換作業
   - 深夜メンテナンスに伴うサイト停止業務
+  - セールなどに伴う手動スケーリング作業
+  - ユーザー問い合わせに関するアクセスログやDB調査
 
 ### ZOZOTOWNのマイクロサービス開発(2020-2023)
 [プロジェクト概要]
@@ -67,7 +69,7 @@ API Gatewayやマイクロサービスの開発と運用およびレガシーシ
 - レビュー
 - リファクタリング
 - 運用、監視業務
-- Goバージョンアップ
+- Goのバージョンアップ作業
 - テックブログ執筆
   - https://techblog.zozo.com/entry/zozotown-api-gateway-intro
   - https://techblog.zozo.com/entry/zozotown-api-gateway-availability
