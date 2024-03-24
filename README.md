@@ -3,7 +3,7 @@
 
 # 職務経歴
 ソフトウェアエンジニアとして約10年の経験があります。
-システム開発に関しては、要件定義・設計・実装・テスト・リリース・運用の一連の経験があります。また、インフラ構築、監視基盤構築、技術選定、スクラム導入、プロジェクトリードなどの経験があります。
+アプリケーション開発に関しては、要件定義・設計・実装・テスト・リリース・運用における一連の経験があります。また、インフラ構築、監視基盤構築、技術選定、スクラム導入、プロジェクトリードなどの経験もあります。
 特に、バックエンド開発とインフラ構築が得意です。
 
 ## 株式会社ZOZO
@@ -13,7 +13,7 @@ ZOZOTOWNのマイクロサービスやPlatformの基盤構築。
 
 [技術スタック]
 
-- Docker/Kubernetes(EKS)/Kustomization/Istio/Flagger/Flux/AWS/CloudFormation/Terraform/Datadog/Sentry/Pager Duty/GitHub Actions/GitHub/Gatling
+- Docker/Kubernetes(EKS)/Istio/Flagger/Flux/AWS/CloudFormation/Terraform/Datadog/Sentry/Pager Duty/GitHub Actions/GitHub/Gatling
 
 [チーム規模、役割]
 
@@ -21,9 +21,9 @@ ZOZOTOWNのマイクロサービスやPlatformの基盤構築。
 
 [主な担当業務]
 
-- Kubernetes/Istio/AWSを用いたマイクロサービスのインフラ構築と保守
-- Flaggerを用いたマイクロサービスのProgressive Delivery化
-- Datadog/PagerDuty/Sentryを用いた監視基盤の構築と保守
+- AWS/Kubernetes/Istioを用いたマイクロサービスのインフラ構築と保守
+- Datadog/PagerDuty/Sentry/Terraformを用いた監視基盤の構築と保守
+- FlaggerによるマイクロサービスのProgressive Delivery化
 - GitHub ActionsやFluxを用いたCI/CDの構築
 - [Gating Operator](https://github.com/st-tech/gatling-operator)の保守
 - 負荷試験
@@ -33,9 +33,10 @@ ZOZOTOWNのマイクロサービスやPlatformの基盤構築。
   - コンテナランタイムをDockershimからContainedへ移行
   - Aurora Upgrade
   - 認証システムの鍵ペア交換作業
-  - 深夜メンテナンスに伴うサイト停止業務
+  - API Gatewayの認証トークン交換作業
   - セールなどに伴う手動スケーリング作業
-  - ユーザー問い合わせに関するアクセスログやDB調査
+  - 深夜メンテナンスに伴うサイト停止業務
+  - ユーザー問い合わせに関するログやDBの調査
 
 ### ZOZOTOWNのマイクロサービス開発(2020-2023)
 [プロジェクト概要]
@@ -44,7 +45,7 @@ API Gatewayやマイクロサービスの開発と運用およびレガシーシ
 
 [技術スタック]
 
-- Go/VBScript/OpenAPI/MySQL/Docker/Kubernetes(EKS)/Datadog/Sentry/Pager Duty/GitHub Actions/GitHub
+- Go/VBScript/OpenAPI/MySQL/Redis/Docker/Kubernetes(EKS)/Datadog/Sentry/Pager Duty/GitHub Actions/GitHub
 
 [チーム規模、役割]
 
