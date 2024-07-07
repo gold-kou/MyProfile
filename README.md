@@ -23,10 +23,10 @@ ZOZOTOWNのシステムリプレイス（SRE）。
 
 - マイクロサービスのインフラ構築と運用保守
   - AWS/Kubernetes/Istioなどを用いたインフラリソースの構築
-  - 複数回のEKSのVersion Upgrade
+  - 複数回のEKSのVersion Upgrade（無事故、無瞬断）
   - コンテナランタイムをDockershimからContainedへ移行
-  - サービス停止を伴うAurora MySQKのVersion UpdateおよびSSL証明書更新
-  - オンプレの深夜メンテナンスに伴うapi-gatewayのサイト停止
+  - サービス停止を伴うAurora MySQLのVersion UpdateおよびSSL証明書更新
+  - 深夜メンテナンスに伴うサイト停止
   - セールなどに伴う事前の手動スケーリング
   - コスト削減
     - 休日深夜時間帯のRDSインスタンスの停止および監視調整
